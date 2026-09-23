@@ -1,6 +1,7 @@
 
 name: update-news
 on:
+  push:
   schedule:
     - cron: "0 21 * * *"
   workflow_dispatch:
