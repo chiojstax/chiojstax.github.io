@@ -32,4 +32,3 @@ jobs:
           else
             echo "변경 없음"
           fi
-
