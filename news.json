@@ -1,6 +1,18 @@
 {
-  "updated": "2026.09.28",
+  "updated": "2026.09.29",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "이형일 부총리, 첫 경제현안간담회 개최",
+      "date": "2026.09.28",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079450"
+    },
+    {
+      "src": "재정경제부",
+      "title": "이형일 부총리, 한국은행 방문 및 신현송 한은총재 면담",
+      "date": "2026.09.28",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079454"
+    },
     {
       "src": "재정경제부",
       "title": "[보도참고] 경제협력개발기구, 9월 중간 경제전망 발표",
@@ -78,18 +90,6 @@
       "title": "지속가능성·AI·성과관리 등 OECD와 공공기관 정책 공유, 협력 강화",
       "date": "2026.09.16",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079364"
-    },
-    {
-      "src": "재정경제부",
-      "title": "한-우즈벡 핵심광물 공급망 MOU 체결 등 한-중앙아 경제협력 확대 추진",
-      "date": "2026.09.16",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079365"
-    },
-    {
-      "src": "재정경제부",
-      "title": "하반기 대외 경제 이슈 점검을 위한 재경관 화상회의 개최",
-      "date": "2026.09.15",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079344"
     }
   ]
 }
