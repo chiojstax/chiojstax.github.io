@@ -1,6 +1,30 @@
 {
-  "updated": "2026.09.29",
+  "updated": "2026.09.30",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "「소득세법 시행령」 등 4개 시행령 국무회의 의결",
+      "date": "2026.09.29",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079468"
+    },
+    {
+      "src": "재정경제부",
+      "title": "수출플러스지원단, 경북지역 수출진흥 협력회의 개최",
+      "date": "2026.09.29",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079469"
+    },
+    {
+      "src": "재정경제부",
+      "title": "전략경제자문단 방산분과 현장 방문",
+      "date": "2026.09.29",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079470"
+    },
+    {
+      "src": "재정경제부",
+      "title": "2026년 2분기 해외직접투자 동향",
+      "date": "2026.09.29",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079455"
+    },
     {
       "src": "재정경제부",
       "title": "이형일 부총리, 첫 경제현안간담회 개최",
@@ -27,6 +51,12 @@
     },
     {
       "src": "재정경제부",
+      "title": "'26.9월 국고채 「모집 방식 비경쟁인수」 발행 미실시",
+      "date": "2026.09.22",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079416"
+    },
+    {
+      "src": "재정경제부",
       "title": "'26년 제4차 조달정책심의위원회 개최",
       "date": "2026.09.22",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079422"
@@ -36,12 +66,6 @@
       "title": "이형일 부총리, 주요 간부회의 개최",
       "date": "2026.09.22",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079434"
-    },
-    {
-      "src": "재정경제부",
-      "title": "'26.9월 국고채 「모집 방식 비경쟁인수」 발행 미실시",
-      "date": "2026.09.22",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079416"
     },
     {
       "src": "재정경제부",
@@ -66,30 +90,6 @@
       "title": "비상경제본부 회의 겸 경제관계장관회의 개최",
       "date": "2026.09.18",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079383"
-    },
-    {
-      "src": "재정경제부",
-      "title": "2026 하반기 퇴직공무원 포상 후보자 공개검증",
-      "date": "2026.09.18",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000030&menuNo=4050100&searchNttId=MOSF_000000000079389"
-    },
-    {
-      "src": "재정경제부",
-      "title": "확대 거시경제금융회의 개최",
-      "date": "2026.09.17",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079372"
-    },
-    {
-      "src": "재정경제부",
-      "title": "역외 원화결제 시스템 구축을 위한 해외원화업무취급기관(RFI-K) 제도 도입",
-      "date": "2026.09.16",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079353"
-    },
-    {
-      "src": "재정경제부",
-      "title": "지속가능성·AI·성과관리 등 OECD와 공공기관 정책 공유, 협력 강화",
-      "date": "2026.09.16",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079364"
     }
   ]
 }
