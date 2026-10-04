@@ -1,6 +1,36 @@
 {
-  "updated": "2026.10.02",
+  "updated": "2026.10.04",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "시장상황점검회의 개최",
+      "date": "2026.10.02",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079531"
+    },
+    {
+      "src": "재정경제부",
+      "title": "국정감사 반복지적사항 전면 점검",
+      "date": "2026.10.02",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079527"
+    },
+    {
+      "src": "재정경제부",
+      "title": "연구기관장 간담회 개최",
+      "date": "2026.10.02",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079533"
+    },
+    {
+      "src": "재정경제부",
+      "title": "'26.9월 소비자물가 동향",
+      "date": "2026.10.02",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079526"
+    },
+    {
+      "src": "재정경제부",
+      "title": "물가관계부처회의 및 민생침해 범정부 합동대응반 개최",
+      "date": "2026.10.02",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079528"
+    },
     {
       "src": "재정경제부",
       "title": "비상경제본부 회의 겸 경제관계장관회의 개최",
@@ -60,36 +90,6 @@
       "title": "금년 국세수입은 478.6조원으로 전망",
       "date": "2026.09.30",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079475"
-    },
-    {
-      "src": "재정경제부",
-      "title": "'26.8월 산업활동동향 및 평가",
-      "date": "2026.09.30",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079476"
-    },
-    {
-      "src": "재정경제부",
-      "title": "확대 거시재정금융간담회 개최",
-      "date": "2026.09.30",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079478"
-    },
-    {
-      "src": "재정경제부",
-      "title": "2026년 4분기 적용 공공자금관리기금 금리 공지",
-      "date": "2026.09.30",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000030&menuNo=4050100&searchNttId=MOSF_000000000079481"
-    },
-    {
-      "src": "재정경제부",
-      "title": "「소득세법 시행령」 등 4개 시행령 국무회의 의결",
-      "date": "2026.09.29",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079468"
-    },
-    {
-      "src": "재정경제부",
-      "title": "수출플러스지원단, 경북지역 수출진흥 협력회의 개최",
-      "date": "2026.09.29",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079469"
     }
   ]
 }
