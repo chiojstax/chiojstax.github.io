@@ -1,6 +1,18 @@
 {
-  "updated": "2026.10.08",
+  "updated": "2026.10.09",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "'생활비 경감 정책 아이디어 공모전' 시상",
+      "date": "2026.10.08",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079565"
+    },
+    {
+      "src": "재정경제부",
+      "title": "관계부처 합동 10월 일자리전담반(TF) 개최",
+      "date": "2026.10.08",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079576"
+    },
     {
       "src": "재정경제부",
       "title": "국제금융기구 진출을 꿈꾸는 우리 인재들에게 더 넓어진 ‘기회의 장’을 연다",
@@ -78,18 +90,6 @@
       "title": "물가관계부처회의 및 민생침해 범정부 합동대응반 개최",
       "date": "2026.10.02",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079528"
-    },
-    {
-      "src": "재정경제부",
-      "title": "비상경제본부 회의 겸 경제관계장관회의 개최",
-      "date": "2026.10.01",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079505"
-    },
-    {
-      "src": "재정경제부",
-      "title": "한미 전략투자 프로젝트 추진 계획 발표",
-      "date": "2026.10.01",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079506"
     }
   ]
 }
