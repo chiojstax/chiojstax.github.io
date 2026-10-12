@@ -1,6 +1,12 @@
 {
-  "updated": "2026.10.11",
+  "updated": "2026.10.12",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "제274차 대외경제장관회의 개최",
+      "date": "2026.10.12",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079586"
+    },
     {
       "src": "재정경제부",
       "title": "'생활비 경감 정책 아이디어 공모전' 시상",
@@ -84,12 +90,6 @@
       "title": "'26.9월 소비자물가 동향",
       "date": "2026.10.02",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079526"
-    },
-    {
-      "src": "재정경제부",
-      "title": "물가관계부처회의 및 민생침해 범정부 합동대응반 개최",
-      "date": "2026.10.02",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079528"
     }
   ]
 }
