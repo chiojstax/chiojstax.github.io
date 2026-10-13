@@ -1,11 +1,35 @@
 {
-  "updated": "2026.10.12",
+  "updated": "2026.10.13",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "[보도참고] 2026년 국제통화기금(IMF) 10월 세계경제전망(WEO)",
+      "date": "2026.10.13",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079594"
+    },
+    {
+      "src": "재정경제부",
+      "title": "제11차 공급망안정화위원회 개최",
+      "date": "2026.10.12",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079584"
+    },
     {
       "src": "재정경제부",
       "title": "제274차 대외경제장관회의 개최",
       "date": "2026.10.12",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079586"
+    },
+    {
+      "src": "재정경제부",
+      "title": "경제현안간담회 개최",
+      "date": "2026.10.12",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079587"
+    },
+    {
+      "src": "재정경제부",
+      "title": "이형일 부총리, K-뉴딜 아카데미를 방문하여 AI 시대 청년고용 제고 노력",
+      "date": "2026.10.12",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079591"
     },
     {
       "src": "재정경제부",
@@ -66,30 +90,6 @@
       "title": "[보도참고] 아세안+3 거시경제조사기구(AMRO) 지역경제전망 보고서 수정전망 발표",
       "date": "2026.10.05",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079551"
-    },
-    {
-      "src": "재정경제부",
-      "title": "시장상황점검회의 개최",
-      "date": "2026.10.02",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079531"
-    },
-    {
-      "src": "재정경제부",
-      "title": "국정감사 반복지적사항 전면 점검",
-      "date": "2026.10.02",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079527"
-    },
-    {
-      "src": "재정경제부",
-      "title": "연구기관장 간담회 개최",
-      "date": "2026.10.02",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079533"
-    },
-    {
-      "src": "재정경제부",
-      "title": "'26.9월 소비자물가 동향",
-      "date": "2026.10.02",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079526"
     }
   ]
 }
