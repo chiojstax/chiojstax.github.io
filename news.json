@@ -1,6 +1,12 @@
 {
-  "updated": "2026.10.14",
+  "updated": "2026.10.15",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "[보도참고] 공급망안정화기금은 공급망 위기 대응을 위한 금융지원을 확대해 왔으며, 앞으로 중소·중견기업 지원도 강화하겠습니다.",
+      "date": "2026.10.14",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079639"
+    },
     {
       "src": "재정경제부",
       "title": "비상경제본부 회의, 경제관계장관회의 겸 서비스산업발전 TF 개최",
@@ -9,9 +15,33 @@
     },
     {
       "src": "재정경제부",
+      "title": "이형일 부총리, 베센트 美 재무장관과 화상면담",
+      "date": "2026.10.14",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079634"
+    },
+    {
+      "src": "재정경제부",
+      "title": "2026년도 하반기 공급망안정화 선도사업자 선정 계획",
+      "date": "2026.10.14",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079636"
+    },
+    {
+      "src": "재정경제부",
       "title": "「AI·융복합 K-뷰티 서비스 지원방안」 발표",
       "date": "2026.10.14",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079628"
+    },
+    {
+      "src": "재정경제부",
+      "title": "이형일 부총리, 통상 분야 전문가 간담회 개최",
+      "date": "2026.10.14",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079630"
+    },
+    {
+      "src": "재정경제부",
+      "title": "이형일 부총리, 국제통화기금(IMF)·세계은행 연차 총회 및 주요 20개국(G20), 주요 7개국(G7) 재무장관회의 참석 위해 출국",
+      "date": "2026.10.14",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079629"
     },
     {
       "src": "재정경제부",
@@ -60,36 +90,6 @@
       "title": "'생활비 경감 정책 아이디어 공모전' 시상",
       "date": "2026.10.08",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079565"
-    },
-    {
-      "src": "재정경제부",
-      "title": "관계부처 합동 10월 일자리전담반(TF) 개최",
-      "date": "2026.10.08",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079576"
-    },
-    {
-      "src": "재정경제부",
-      "title": "국제금융기구 진출을 꿈꾸는 우리 인재들에게 더 넓어진 ‘기회의 장’을 연다",
-      "date": "2026.10.07",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079562"
-    },
-    {
-      "src": "재정경제부",
-      "title": "「외국환거래법 시행령」 개정안 입법예고",
-      "date": "2026.10.07",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079553"
-    },
-    {
-      "src": "재정경제부",
-      "title": "탄소 감축을 넘어 신성장동력으로, 정부 1,000조원 투자로 K-GX 본격 가동",
-      "date": "2026.10.07",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079552"
-    },
-    {
-      "src": "재정경제부",
-      "title": "경제6단체장 간담회 겸 기업혁신 지원 민관협의체 제6차 회의 개최",
-      "date": "2026.10.07",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079559"
     }
   ]
 }
