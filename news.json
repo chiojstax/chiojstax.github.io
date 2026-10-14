@@ -1,6 +1,30 @@
 {
-  "updated": "2026.10.13",
+  "updated": "2026.10.14",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "비상경제본부 회의, 경제관계장관회의 겸 서비스산업발전 TF 개최",
+      "date": "2026.10.14",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079631"
+    },
+    {
+      "src": "재정경제부",
+      "title": "「AI·융복합 K-뷰티 서비스 지원방안」 발표",
+      "date": "2026.10.14",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079628"
+    },
+    {
+      "src": "재정경제부",
+      "title": "원화국제화 관련 외환규제 완화를 위한 「외국환거래규정」 개정안 행정예고",
+      "date": "2026.10.13",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079619"
+    },
+    {
+      "src": "재정경제부",
+      "title": "수출플러스 지원단, 경남 지역수출진흥 협력회의 및 수출금융 설명회 개최",
+      "date": "2026.10.13",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079627"
+    },
     {
       "src": "재정경제부",
       "title": "[보도참고] 2026년 국제통화기금(IMF) 10월 세계경제전망(WEO)",
@@ -66,30 +90,6 @@
       "title": "경제6단체장 간담회 겸 기업혁신 지원 민관협의체 제6차 회의 개최",
       "date": "2026.10.07",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079559"
-    },
-    {
-      "src": "재정경제부",
-      "title": "전략경제자문단 양자보안분과 현장 방문",
-      "date": "2026.10.07",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079564"
-    },
-    {
-      "src": "재정경제부",
-      "title": "2026년 11월 물가연동국고채 종목별 연동계수",
-      "date": "2026.10.06",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079549"
-    },
-    {
-      "src": "재정경제부",
-      "title": "경제현안간담회 개최",
-      "date": "2026.10.05",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079537"
-    },
-    {
-      "src": "재정경제부",
-      "title": "[보도참고] 아세안+3 거시경제조사기구(AMRO) 지역경제전망 보고서 수정전망 발표",
-      "date": "2026.10.05",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079551"
     }
   ]
 }
