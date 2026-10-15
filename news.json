@@ -1,6 +1,18 @@
 {
-  "updated": "2026.10.15",
+  "updated": "2026.10.16",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "이형일 부총리, 日 가타야마 재무장관 면담에서 한일 통화스왑 연장에 합의",
+      "date": "2026.10.15",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079659"
+    },
+    {
+      "src": "재정경제부",
+      "title": "2026년도 공급망안정화 선도사업자 제2차 선정계획 공고",
+      "date": "2026.10.15",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000030&menuNo=4050100&searchNttId=MOSF_000000000079642"
+    },
     {
       "src": "재정경제부",
       "title": "[보도참고] 공급망안정화기금은 공급망 위기 대응을 위한 금융지원을 확대해 왔으며, 앞으로 중소·중견기업 지원도 강화하겠습니다.",
@@ -78,18 +90,6 @@
       "title": "경제현안간담회 개최",
       "date": "2026.10.12",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079587"
-    },
-    {
-      "src": "재정경제부",
-      "title": "이형일 부총리, K-뉴딜 아카데미를 방문하여 AI 시대 청년고용 제고 노력",
-      "date": "2026.10.12",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079591"
-    },
-    {
-      "src": "재정경제부",
-      "title": "'생활비 경감 정책 아이디어 공모전' 시상",
-      "date": "2026.10.08",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079565"
     }
   ]
 }
