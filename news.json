@@ -1,6 +1,24 @@
 {
-  "updated": "2026.10.20",
+  "updated": "2026.10.21",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "가상자산 과세 관련 현장 간담회 개최",
+      "date": "2026.10.20",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079708"
+    },
+    {
+      "src": "재정경제부",
+      "title": "채권 발행기관 협의체 제4차 회의 개최",
+      "date": "2026.10.20",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079717"
+    },
+    {
+      "src": "재정경제부",
+      "title": "글로벌 AI 디지털 서밋 개최",
+      "date": "2026.10.20",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079712"
+    },
     {
       "src": "재정경제부",
       "title": "국제통화위원회(IMFC) 참석 및 주요 인사 면담 결과",
@@ -72,24 +90,6 @@
       "title": "[보도참고] 공급망안정화기금은 공급망 위기 대응을 위한 금융지원을 확대해 왔으며, 앞으로 중소·중견기업 지원도 강화하겠습니다.",
       "date": "2026.10.14",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079639"
-    },
-    {
-      "src": "재정경제부",
-      "title": "비상경제본부 회의, 경제관계장관회의 겸 서비스산업발전 TF 개최",
-      "date": "2026.10.14",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079631"
-    },
-    {
-      "src": "재정경제부",
-      "title": "이형일 부총리, 베선트 미(美) 재무장관과 화상면담",
-      "date": "2026.10.14",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079634"
-    },
-    {
-      "src": "재정경제부",
-      "title": "2026년도 하반기 공급망안정화 선도사업자 선정 계획",
-      "date": "2026.10.14",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079636"
     }
   ]
 }
