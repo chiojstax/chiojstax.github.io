@@ -1,6 +1,12 @@
 {
-  "updated": "2026.10.22",
+  "updated": "2026.10.23",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "(보도설명) 정부는 할당관세의 물가안정 효과를 높이기 위한 제도개선을 지속 추진 중입니다.",
+      "date": "2026.10.22",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079736"
+    },
     {
       "src": "재정경제부",
       "title": "피지컬 AI시대, 중소기업 혁신전략",
@@ -84,12 +90,6 @@
       "title": "[보도참고] 2026년 10월 최근 경제동향",
       "date": "2026.10.16",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079663"
-    },
-    {
-      "src": "재정경제부",
-      "title": "2026년 우수공무원 포상 후보자 공개검증",
-      "date": "2026.10.16",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000030&menuNo=4050100&searchNttId=MOSF_000000000079679"
     }
   ]
 }
