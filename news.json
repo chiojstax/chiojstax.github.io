@@ -1,6 +1,24 @@
 {
-  "updated": "2026.10.23",
+  "updated": "2026.10.25",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "'26.10월 국고채 「모집 방식 비경쟁인수」 발행 미실시",
+      "date": "2026.10.23",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079737"
+    },
+    {
+      "src": "재정경제부",
+      "title": "제9회 디지털 이코노미 포럼 개최",
+      "date": "2026.10.23",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079738"
+    },
+    {
+      "src": "재정경제부",
+      "title": "이형일 부총리, 영등포복합청사 현장방문",
+      "date": "2026.10.23",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079741"
+    },
     {
       "src": "재정경제부",
       "title": "(보도설명) 정부는 할당관세의 물가안정 효과를 높이기 위한 제도개선을 지속 추진 중입니다.",
@@ -72,24 +90,6 @@
       "title": "주요 20개국(G20)·주요 7개국(G7) 재무장관회의 참석 및 주요인사 면담 결과",
       "date": "2026.10.16",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079665"
-    },
-    {
-      "src": "재정경제부",
-      "title": "한미 재무·통화당국 2+2 면담 개최",
-      "date": "2026.10.16",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079678"
-    },
-    {
-      "src": "재정경제부",
-      "title": "시장상황점검회의 개최",
-      "date": "2026.10.16",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079662"
-    },
-    {
-      "src": "재정경제부",
-      "title": "[보도참고] 2026년 10월 최근 경제동향",
-      "date": "2026.10.16",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079663"
     }
   ]
 }
