@@ -1,6 +1,30 @@
 {
-  "updated": "2026.10.27",
+  "updated": "2026.10.28",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "(보도설명) 정부는 감사원이 지적한 세수추계 모형을 이미 개선하였으며, 세수추계 신뢰성을 높이기 위해 지속 노력하고 있습니다.",
+      "date": "2026.10.27",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079776"
+    },
+    {
+      "src": "재정경제부",
+      "title": "제2회 코리아 그랜드 페스티벌 시작(10.29~11.15)",
+      "date": "2026.10.27",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079772"
+    },
+    {
+      "src": "재정경제부",
+      "title": "2026년 주요 20개국(G20) 글로벌 금융안정 컨퍼런스 개최",
+      "date": "2026.10.27",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079763"
+    },
+    {
+      "src": "재정경제부",
+      "title": "청년의 꿈을 키우고 삶을 바꾸는 생애주기 맞춤형 지원 강화",
+      "date": "2026.10.27",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079760"
+    },
     {
       "src": "재정경제부",
       "title": "경제현안간담회 개최",
@@ -66,30 +90,6 @@
       "title": "글로벌 AI 디지털 서밋 개최",
       "date": "2026.10.20",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079712"
-    },
-    {
-      "src": "재정경제부",
-      "title": "국제통화위원회(IMFC) 참석 및 주요 인사 면담 결과",
-      "date": "2026.10.19",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079697"
-    },
-    {
-      "src": "재정경제부",
-      "title": "글로벌 3대 신용평가사, 주요국 수석대표 및 다자개발은행 총재 등 주요 인사 면담 결과",
-      "date": "2026.10.18",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079680"
-    },
-    {
-      "src": "재정경제부",
-      "title": "제11차 관계부처 합동 일자리전담반(TF) 개최",
-      "date": "2026.10.16",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079661"
-    },
-    {
-      "src": "재정경제부",
-      "title": "[보도참고] '26.9월 고용동향 및 평가",
-      "date": "2026.10.16",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079660"
     }
   ]
 }
