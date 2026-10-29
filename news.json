@@ -1,6 +1,36 @@
 {
-  "updated": "2026.10.28",
+  "updated": "2026.10.29",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "퇴직연금 기능강화 방안 발표",
+      "date": "2026.10.29",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079784"
+    },
+    {
+      "src": "재정경제부",
+      "title": "이형일 부총리, 블룸버그 아태 대표 면담",
+      "date": "2026.10.28",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079785"
+    },
+    {
+      "src": "재정경제부",
+      "title": "요소수·요소, 주사기·주사침 매점매석행위 금지 고시 종료",
+      "date": "2026.10.28",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079777"
+    },
+    {
+      "src": "재정경제부",
+      "title": "수출플러스 지원단, 전남광주 지역수출진흥 협력회의 및 수출금융 설명회 개최",
+      "date": "2026.10.28",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079781"
+    },
+    {
+      "src": "재정경제부",
+      "title": "경제관계장관회의 - 과학기술관계장관회의 연석회의 개최",
+      "date": "2026.10.28",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079780"
+    },
     {
       "src": "재정경제부",
       "title": "(보도설명) 정부는 감사원이 지적한 세수추계 모형을 이미 개선하였으며, 세수추계 신뢰성을 높이기 위해 지속 노력하고 있습니다.",
@@ -60,36 +90,6 @@
       "title": "피지컬 AI시대, 중소기업 혁신전략",
       "date": "2026.10.21",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079719"
-    },
-    {
-      "src": "재정경제부",
-      "title": "아시아·태평양 경제협력체(APEC) 재무장관회의 참석 및 주요 인사 면담",
-      "date": "2026.10.21",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079710"
-    },
-    {
-      "src": "재정경제부",
-      "title": "제61회 납세자의 날 유공자 정부포상 후보자 공모",
-      "date": "2026.10.21",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000030&menuNo=4050100&searchNttId=MOSF_000000000079725"
-    },
-    {
-      "src": "재정경제부",
-      "title": "가상자산 과세 관련 현장 간담회 개최",
-      "date": "2026.10.20",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079708"
-    },
-    {
-      "src": "재정경제부",
-      "title": "채권 발행기관 협의체 제4차 회의 개최",
-      "date": "2026.10.20",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079717"
-    },
-    {
-      "src": "재정경제부",
-      "title": "글로벌 AI 디지털 서밋 개최",
-      "date": "2026.10.20",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079712"
     }
   ]
 }
