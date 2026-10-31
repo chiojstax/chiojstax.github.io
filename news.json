@@ -1,11 +1,29 @@
 {
-  "updated": "2026.10.30",
+  "updated": "2026.10.31",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "권대영 1차관, 「주요 국책과제 이행점검」 TF 개최",
+      "date": "2026.10.30",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079811"
+    },
+    {
+      "src": "재정경제부",
+      "title": "한-독일 이중과세방지협정 개정의정서 서명",
+      "date": "2026.10.30",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079805"
+    },
     {
       "src": "재정경제부",
       "title": "'26.9월 및 3분기 산업활동동향 및 평가",
       "date": "2026.10.30",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079806"
+    },
+    {
+      "src": "재정경제부",
+      "title": "'26.9월 국세수입 동향",
+      "date": "2026.10.30",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079808"
     },
     {
       "src": "재정경제부",
@@ -72,24 +90,6 @@
       "title": "경제관계장관회의 - 과학기술관계장관회의 연석회의 개최",
       "date": "2026.10.28",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079780"
-    },
-    {
-      "src": "재정경제부",
-      "title": "(보도설명) 정부는 감사원이 지적한 세수추계 모형을 이미 개선하였으며, 세수추계 신뢰성을 높이기 위해 지속 노력하고 있습니다.",
-      "date": "2026.10.27",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079776"
-    },
-    {
-      "src": "재정경제부",
-      "title": "제2회 코리아 그랜드 페스티벌 시작(10.29~11.15)",
-      "date": "2026.10.27",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079772"
-    },
-    {
-      "src": "재정경제부",
-      "title": "2026년 주요 20개국(G20) 글로벌 금융안정 컨퍼런스 개최",
-      "date": "2026.10.27",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079763"
     }
   ]
 }
