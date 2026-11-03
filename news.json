@@ -1,6 +1,60 @@
 {
-  "updated": "2026.11.02",
+  "updated": "2026.11.03",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "국제 신용평가사 Fitch, 한국 연례협의 실시",
+      "date": "2026.11.03",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079837"
+    },
+    {
+      "src": "재정경제부",
+      "title": "물가관계차관회의 개최",
+      "date": "2026.11.03",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079838"
+    },
+    {
+      "src": "재정경제부",
+      "title": "'26.10월 소비자물가 동향",
+      "date": "2026.11.03",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079839"
+    },
+    {
+      "src": "재정경제부",
+      "title": "「의료데이터의 안전한 학습·검증·활용을 위한 국가 AI 인프라 구축」 포럼 개최",
+      "date": "2026.11.02",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079836"
+    },
+    {
+      "src": "재정경제부",
+      "title": "이형일 부총리, 미셸 박 스틸 주한미국대사 접견",
+      "date": "2026.11.02",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079826"
+    },
+    {
+      "src": "재정경제부",
+      "title": "[보도자료] 국제통화기금(IMF) 2026년 한국 연례협의 실시",
+      "date": "2026.11.02",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079829"
+    },
+    {
+      "src": "재정경제부",
+      "title": "경제현안간담회 개최",
+      "date": "2026.11.02",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079820"
+    },
+    {
+      "src": "재정경제부",
+      "title": "전기차 산업 경쟁력 강화를 위한 현장방문 및 업계 간담회 개최",
+      "date": "2026.11.02",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079830"
+    },
+    {
+      "src": "재정경제부",
+      "title": "2026년도 공공기관 안전관리등급 심사위원 모집 공고",
+      "date": "2026.11.02",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000030&menuNo=4050100&searchNttId=MOSF_000000000079823"
+    },
     {
       "src": "재정경제부",
       "title": "권대영 1차관, 「주요 국책과제 이행점검」 TF 개최",
@@ -36,60 +90,6 @@
       "title": "이형일 부총리, 글로벌녹색성장서밋에서 기후대응·성장의 선순환을 위한 국제협력 강조",
       "date": "2026.10.29",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079788"
-    },
-    {
-      "src": "재정경제부",
-      "title": "퇴직연금 기능강화 방안 발표",
-      "date": "2026.10.29",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079784"
-    },
-    {
-      "src": "재정경제부",
-      "title": "이형일 부총리, 광진 서민금융통합지원센터 방문, 서민금융 지원 강화",
-      "date": "2026.10.29",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079800"
-    },
-    {
-      "src": "재정경제부",
-      "title": "개인투자용 국채 11월 2,000억원 발행 예정",
-      "date": "2026.10.29",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079786"
-    },
-    {
-      "src": "재정경제부",
-      "title": "확대 거시경제금융회의 개최",
-      "date": "2026.10.29",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079792"
-    },
-    {
-      "src": "재정경제부",
-      "title": "이형일 부총리, 블룸버그 아태 대표 면담",
-      "date": "2026.10.28",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079785"
-    },
-    {
-      "src": "재정경제부",
-      "title": "요소수·요소, 주사기·주사침 매점매석행위 금지 고시 종료",
-      "date": "2026.10.28",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079777"
-    },
-    {
-      "src": "재정경제부",
-      "title": "공공기관 AI 대전환, 우리의 일상을 바꾸다(2026 공공기관 AI 혁신 성과 대회 개최)",
-      "date": "2026.10.28",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079793"
-    },
-    {
-      "src": "재정경제부",
-      "title": "수출플러스 지원단, 전남광주 지역수출진흥 협력회의 및 수출금융 설명회 개최",
-      "date": "2026.10.28",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079781"
-    },
-    {
-      "src": "재정경제부",
-      "title": "경제관계장관회의 - 과학기술관계장관회의 연석회의 개최",
-      "date": "2026.10.28",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079780"
     }
   ]
 }
