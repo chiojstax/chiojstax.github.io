@@ -1,6 +1,12 @@
 {
-  "updated": "2026.11.04",
+  "updated": "2026.11.05",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "허장 차관, 방글라데시 차우두리 재무장관 면담",
+      "date": "2026.11.04",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079853"
+    },
     {
       "src": "재정경제부",
       "title": "국제 신용평가사 Fitch, 한국 연례협의 실시",
@@ -84,12 +90,6 @@
       "title": "'26.9월 및 3분기 산업활동동향 및 평가",
       "date": "2026.10.30",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079806"
-    },
-    {
-      "src": "재정경제부",
-      "title": "'26.9월 국세수입 동향",
-      "date": "2026.10.30",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079808"
     }
   ]
 }
