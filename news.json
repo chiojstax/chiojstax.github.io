@@ -1,6 +1,42 @@
 {
-  "updated": "2026.11.05",
+  "updated": "2026.11.06",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "제276차 대외경제장관회의 개최",
+      "date": "2026.11.06",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079883"
+    },
+    {
+      "src": "재정경제부",
+      "title": "권대영 1차관, 「기업활력 제고 TF」 첫 회의 개최",
+      "date": "2026.11.05",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079863"
+    },
+    {
+      "src": "재정경제부",
+      "title": "가상자산 과세 관련 부총리 브리핑",
+      "date": "2026.11.05",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079862"
+    },
+    {
+      "src": "재정경제부",
+      "title": "시장상황점검회의 개최",
+      "date": "2026.11.05",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079867"
+    },
+    {
+      "src": "재정경제부",
+      "title": "범부처 민생안정지원단, 소상공인 재기 지원 현장 방문",
+      "date": "2026.11.05",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079866"
+    },
+    {
+      "src": "재정경제부",
+      "title": "이형일 부총리, Fitch 연례협의단과 면담",
+      "date": "2026.11.05",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079878"
+    },
     {
       "src": "재정경제부",
       "title": "허장 차관, 방글라데시 차우두리 재무장관 면담",
@@ -54,42 +90,6 @@
       "title": "[보도자료] 국제통화기금(IMF) 2026년 한국 연례협의 실시",
       "date": "2026.11.02",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079829"
-    },
-    {
-      "src": "재정경제부",
-      "title": "경제현안간담회 개최",
-      "date": "2026.11.02",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079820"
-    },
-    {
-      "src": "재정경제부",
-      "title": "전기차 산업 경쟁력 강화를 위한 현장방문 및 업계 간담회 개최",
-      "date": "2026.11.02",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079830"
-    },
-    {
-      "src": "재정경제부",
-      "title": "2026년도 공공기관 안전관리등급 심사위원 모집 공고",
-      "date": "2026.11.02",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000030&menuNo=4050100&searchNttId=MOSF_000000000079823"
-    },
-    {
-      "src": "재정경제부",
-      "title": "권대영 1차관, 「주요 국책과제 이행점검」 TF 개최",
-      "date": "2026.10.30",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079811"
-    },
-    {
-      "src": "재정경제부",
-      "title": "한-독일 이중과세방지협정 개정의정서 서명",
-      "date": "2026.10.30",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079805"
-    },
-    {
-      "src": "재정경제부",
-      "title": "'26.9월 및 3분기 산업활동동향 및 평가",
-      "date": "2026.10.30",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079806"
     }
   ]
 }
