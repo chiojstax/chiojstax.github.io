@@ -1,6 +1,12 @@
 {
-  "updated": "2026.11.09",
+  "updated": "2026.11.10",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "제19회 아시아 고위공무원 초청연수 실시",
+      "date": "2026.11.09",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079901"
+    },
     {
       "src": "재정경제부",
       "title": "반도체 전문가 간담회 개최",
@@ -84,12 +90,6 @@
       "title": "물가관계차관회의 개최",
       "date": "2026.11.03",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079838"
-    },
-    {
-      "src": "재정경제부",
-      "title": "'26.10월 소비자물가 동향",
-      "date": "2026.11.03",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079839"
     }
   ]
 }
