@@ -1,6 +1,24 @@
 {
-  "updated": "2026.11.10",
+  "updated": "2026.11.11",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "비상경제장관회의 개최",
+      "date": "2026.11.11",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079917"
+    },
+    {
+      "src": "재정경제부",
+      "title": "[보도참고] '26.10월 고용동향 및 평가",
+      "date": "2026.11.11",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079916"
+    },
+    {
+      "src": "재정경제부",
+      "title": "제13차 관계부처 합동 일자리전담반(TF) 개최",
+      "date": "2026.11.11",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079914"
+    },
     {
       "src": "재정경제부",
       "title": "제19회 아시아 고위공무원 초청연수 실시",
@@ -72,24 +90,6 @@
       "title": "이형일 부총리, Fitch 연례협의단과 면담",
       "date": "2026.11.05",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079878"
-    },
-    {
-      "src": "재정경제부",
-      "title": "허장 차관, 방글라데시 차우두리 재무장관 면담",
-      "date": "2026.11.04",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079853"
-    },
-    {
-      "src": "재정경제부",
-      "title": "국제 신용평가사 Fitch, 한국 연례협의 실시",
-      "date": "2026.11.03",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079837"
-    },
-    {
-      "src": "재정경제부",
-      "title": "물가관계차관회의 개최",
-      "date": "2026.11.03",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079838"
     }
   ]
 }
