@@ -1,6 +1,24 @@
 {
-  "updated": "2026.11.11",
+  "updated": "2026.11.12",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "양극화 대응 총괄반 1차 회의 개최",
+      "date": "2026.11.12",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079934"
+    },
+    {
+      "src": "재정경제부",
+      "title": "영남권 메가프로젝트 이행 점검 TF 개최",
+      "date": "2026.11.11",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079927"
+    },
+    {
+      "src": "재정경제부",
+      "title": "제3차 글로벌 핵심 투자자 협의체 개최",
+      "date": "2026.11.11",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079922"
+    },
     {
       "src": "재정경제부",
       "title": "비상경제장관회의 개최",
@@ -15,9 +33,33 @@
     },
     {
       "src": "재정경제부",
+      "title": "새로운 성장동력 발굴을 위한 「2026 초혁신경제 포럼」 개최",
+      "date": "2026.11.11",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079907"
+    },
+    {
+      "src": "재정경제부",
       "title": "제13차 관계부처 합동 일자리전담반(TF) 개최",
       "date": "2026.11.11",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079914"
+    },
+    {
+      "src": "재정경제부",
+      "title": "이형일 부총리, 취임 후 첫 재경관 화상회의 개최",
+      "date": "2026.11.11",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079918"
+    },
+    {
+      "src": "재정경제부",
+      "title": "아세안+3 역내 위기 대응 역량을 강화하는 신속금융 프로그램(RFF) 시행",
+      "date": "2026.11.11",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079919"
+    },
+    {
+      "src": "재정경제부",
+      "title": "2026년 규제합리화 만족도 조사 안내문",
+      "date": "2026.11.11",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000030&menuNo=4050100&searchNttId=MOSF_000000000079920"
     },
     {
       "src": "재정경제부",
@@ -48,48 +90,6 @@
       "title": "[보도참고] 세계은행그룹 부총재에 두 번째 한국인 진출",
       "date": "2026.11.06",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079886"
-    },
-    {
-      "src": "재정경제부",
-      "title": "긴급 시장상황점검회의 개최",
-      "date": "2026.11.06",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079890"
-    },
-    {
-      "src": "재정경제부",
-      "title": "2026년 물가안정 유공 정부포상 후보자 공개검증",
-      "date": "2026.11.06",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000030&menuNo=4050100&searchNttId=MOSF_000000000079894"
-    },
-    {
-      "src": "재정경제부",
-      "title": "권대영 1차관, 「기업활력 제고 TF」 첫 회의 개최",
-      "date": "2026.11.05",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079863"
-    },
-    {
-      "src": "재정경제부",
-      "title": "가상자산 과세 관련 부총리 브리핑",
-      "date": "2026.11.05",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079862"
-    },
-    {
-      "src": "재정경제부",
-      "title": "시장상황점검회의 개최",
-      "date": "2026.11.05",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079867"
-    },
-    {
-      "src": "재정경제부",
-      "title": "범부처 민생안정지원단, 소상공인 재기 지원 현장 방문",
-      "date": "2026.11.05",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079866"
-    },
-    {
-      "src": "재정경제부",
-      "title": "이형일 부총리, Fitch 연례협의단과 면담",
-      "date": "2026.11.05",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079878"
     }
   ]
 }
