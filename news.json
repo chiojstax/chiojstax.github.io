@@ -1,11 +1,41 @@
 {
-  "updated": "2026.11.12",
+  "updated": "2026.11.13",
   "items": [
     {
       "src": "재정경제부",
-      "title": "양극화 대응 총괄반 1차 회의 개최",
+      "title": "권대영 1차관, 「월급방위대 TF」 킥오프 회의 개최",
+      "date": "2026.11.13",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079949"
+    },
+    {
+      "src": "재정경제부",
+      "title": "[보도참고] 2026년 11월 최근 경제동향",
+      "date": "2026.11.13",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079950"
+    },
+    {
+      "src": "재정경제부",
+      "title": "제18회 국제금융기구 채용설명회 개최",
+      "date": "2026.11.12",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079925"
+    },
+    {
+      "src": "재정경제부",
+      "title": "범부처 민생안정지원단, 청년 취업지원 현장 점검",
+      "date": "2026.11.12",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079929"
+    },
+    {
+      "src": "재정경제부",
+      "title": "양극화 대응 TF 총괄반 1차 회의 개최",
       "date": "2026.11.12",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079934"
+    },
+    {
+      "src": "재정경제부",
+      "title": "국방분야 혁신제품 최초 지정",
+      "date": "2026.11.12",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079935"
     },
     {
       "src": "재정경제부",
@@ -57,39 +87,9 @@
     },
     {
       "src": "재정경제부",
-      "title": "2026년 규제합리화 만족도 조사 안내문",
+      "title": "한-ADB 고위급 연례협의 개최",
       "date": "2026.11.11",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000030&menuNo=4050100&searchNttId=MOSF_000000000079920"
-    },
-    {
-      "src": "재정경제부",
-      "title": "제19회 아시아 고위공무원 초청연수 실시",
-      "date": "2026.11.09",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079901"
-    },
-    {
-      "src": "재정경제부",
-      "title": "반도체 전문가 간담회 개최",
-      "date": "2026.11.06",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079895"
-    },
-    {
-      "src": "재정경제부",
-      "title": "제276차 대외경제장관회의 개최",
-      "date": "2026.11.06",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079883"
-    },
-    {
-      "src": "재정경제부",
-      "title": "이형일 부총리, 코리아그랜드페스티벌x행복한 백화점 현장행보",
-      "date": "2026.11.06",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079882"
-    },
-    {
-      "src": "재정경제부",
-      "title": "[보도참고] 세계은행그룹 부총재에 두 번째 한국인 진출",
-      "date": "2026.11.06",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079886"
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079942"
     }
   ]
 }
