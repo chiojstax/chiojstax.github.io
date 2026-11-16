@@ -1,6 +1,18 @@
 {
-  "updated": "2026.11.15",
+  "updated": "2026.11.16",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "경제현안간담회 개최",
+      "date": "2026.11.15",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079962"
+    },
+    {
+      "src": "재정경제부",
+      "title": "한국 주도로 9개국이 참여하는 글로벌 고신뢰 탄소시장(GVCM) 협력 기반 마련",
+      "date": "2026.11.15",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079961"
+    },
     {
       "src": "재정경제부",
       "title": "권대영 1차관, 「월급방위대 TF」 킥오프 회의 개최",
@@ -78,18 +90,6 @@
       "title": "이형일 부총리, 취임 후 첫 재경관 화상회의 개최",
       "date": "2026.11.11",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079918"
-    },
-    {
-      "src": "재정경제부",
-      "title": "아세안+3 역내 위기 대응 역량을 강화하는 신속금융 프로그램(RFF) 시행",
-      "date": "2026.11.11",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079919"
-    },
-    {
-      "src": "재정경제부",
-      "title": "한-ADB 고위급 연례협의 개최",
-      "date": "2026.11.11",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079942"
     }
   ]
 }
