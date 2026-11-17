@@ -1,6 +1,24 @@
 {
-  "updated": "2026.11.16",
+  "updated": "2026.11.17",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "「세무사 시험 부정행위 대응 TF」 킥오프 회의 및 세무사 시험 부정행위자 시험 무효 절차 개시",
+      "date": "2026.11.16",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079971"
+    },
+    {
+      "src": "재정경제부",
+      "title": "국유재산 안전관리 체계 고도화 추진",
+      "date": "2026.11.16",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079967"
+    },
+    {
+      "src": "재정경제부",
+      "title": "전략경제자문단 AI에이전트커머스분과 현장방문",
+      "date": "2026.11.16",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079966"
+    },
     {
       "src": "재정경제부",
       "title": "경제현안간담회 개최",
@@ -72,24 +90,6 @@
       "title": "[보도참고] '26.10월 고용동향 및 평가",
       "date": "2026.11.11",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079916"
-    },
-    {
-      "src": "재정경제부",
-      "title": "새로운 성장동력 발굴을 위한 「2026 초혁신경제 포럼」 개최",
-      "date": "2026.11.11",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079907"
-    },
-    {
-      "src": "재정경제부",
-      "title": "제13차 관계부처 합동 일자리전담반(TF) 개최",
-      "date": "2026.11.11",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079914"
-    },
-    {
-      "src": "재정경제부",
-      "title": "이형일 부총리, 취임 후 첫 재경관 화상회의 개최",
-      "date": "2026.11.11",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079918"
     }
   ]
 }
