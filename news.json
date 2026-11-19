@@ -1,5 +1,5 @@
 {
-  "updated": "2026.11.18",
+  "updated": "2026.11.19",
   "items": [
     {
       "src": "재정경제부",
@@ -12,6 +12,18 @@
       "title": "국산 중고차 수출 원산지 증명 간소화 추진",
       "date": "2026.11.18",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079957"
+    },
+    {
+      "src": "재정경제부",
+      "title": "대외경제협력기금-시민사회 간담회 개최",
+      "date": "2026.11.18",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079991"
+    },
+    {
+      "src": "재정경제부",
+      "title": "「양극화 대응 TF」 세대 격차 완화반 1차 회의 개최",
+      "date": "2026.11.18",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079988"
     },
     {
       "src": "재정경제부",
@@ -78,18 +90,6 @@
       "title": "양극화 대응 TF 총괄반 1차 회의 개최",
       "date": "2026.11.12",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079934"
-    },
-    {
-      "src": "재정경제부",
-      "title": "국방분야 혁신제품 최초 지정",
-      "date": "2026.11.12",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079935"
-    },
-    {
-      "src": "재정경제부",
-      "title": "영남권 메가프로젝트 이행 점검 TF 개최",
-      "date": "2026.11.11",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079927"
     }
   ]
 }
