@@ -1,17 +1,35 @@
 {
-  "updated": "2026.11.19",
+  "updated": "2026.11.20",
   "items": [
     {
       "src": "재정경제부",
-      "title": "경남창원 수출플러스간담회 개최",
-      "date": "2026.11.18",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079984"
+      "title": "'26.11월 국고채 「모집 방식 비경쟁인수」 발행 미실시",
+      "date": "2026.11.19",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000080007"
+    },
+    {
+      "src": "재정경제부",
+      "title": "2026년 3분기말 대외채권채무 동향",
+      "date": "2026.11.19",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079995"
+    },
+    {
+      "src": "재정경제부",
+      "title": "전략경제자문단 우주분과 현장 방문",
+      "date": "2026.11.19",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079999"
     },
     {
       "src": "재정경제부",
       "title": "국산 중고차 수출 원산지 증명 간소화 추진",
       "date": "2026.11.18",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079957"
+    },
+    {
+      "src": "재정경제부",
+      "title": "경남창원 수출플러스간담회 개최",
+      "date": "2026.11.18",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079984"
     },
     {
       "src": "재정경제부",
@@ -72,24 +90,6 @@
       "title": "[보도참고] 2026년 11월 최근 경제동향",
       "date": "2026.11.13",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079950"
-    },
-    {
-      "src": "재정경제부",
-      "title": "제18회 국제금융기구 채용설명회 개최",
-      "date": "2026.11.12",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079925"
-    },
-    {
-      "src": "재정경제부",
-      "title": "범부처 민생안정지원단, 청년 취업지원 현장 점검",
-      "date": "2026.11.12",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079929"
-    },
-    {
-      "src": "재정경제부",
-      "title": "양극화 대응 TF 총괄반 1차 회의 개최",
-      "date": "2026.11.12",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079934"
     }
   ]
 }
