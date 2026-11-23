@@ -1,6 +1,12 @@
 {
-  "updated": "2026.11.22",
+  "updated": "2026.11.23",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "긴급 시장상황점검회의 개최",
+      "date": "2026.11.22",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000080021"
+    },
     {
       "src": "재정경제부",
       "title": "'26.11월 국고채 「모집 방식 비경쟁인수」 발행 미실시",
@@ -84,12 +90,6 @@
       "title": "권대영 1차관, 「월급방위대 TF」 킥오프 회의 개최",
       "date": "2026.11.13",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079949"
-    },
-    {
-      "src": "재정경제부",
-      "title": "[보도참고] 2026년 11월 최근 경제동향",
-      "date": "2026.11.13",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079950"
     }
   ]
 }
