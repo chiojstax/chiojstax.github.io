@@ -1,6 +1,18 @@
 {
-  "updated": "2026.11.23",
+  "updated": "2026.11.24",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "「아세안+3 재무차관 및 중앙은행 부총재회의」 참석",
+      "date": "2026.11.24",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000080035"
+    },
+    {
+      "src": "재정경제부",
+      "title": "‘쉬었음’ 청년을 다시 내:일로… 청년일자리팀, 제2회 ‘국민 체감 대상’",
+      "date": "2026.11.23",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000080028"
+    },
     {
       "src": "재정경제부",
       "title": "긴급 시장상황점검회의 개최",
@@ -78,18 +90,6 @@
       "title": "경제현안간담회 개최",
       "date": "2026.11.15",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079962"
-    },
-    {
-      "src": "재정경제부",
-      "title": "한국 주도로 9개국이 참여하는 글로벌 고신뢰 탄소시장(GVCM) 협력 기반 마련",
-      "date": "2026.11.15",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079961"
-    },
-    {
-      "src": "재정경제부",
-      "title": "권대영 1차관, 「월급방위대 TF」 킥오프 회의 개최",
-      "date": "2026.11.13",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079949"
     }
   ]
 }
