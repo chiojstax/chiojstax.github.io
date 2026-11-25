@@ -88,7 +88,7 @@ details[open] summary{border-bottom:1px solid var(--line);background:#fafbfc}
 .qm{width:26px;height:26px;border-radius:8px;background:var(--bluebg);color:var(--blue);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;flex:none}
 details .in{padding:14px 14px 12px}
 details .in p{margin:0 0 8px}
-.site{display:inline-flex;align-items:center;gap:6px;font-size:14px;margin-bottom:10px;text-decoration:none;background:var(--bg);padding:4px 10px;border-radius:20px}
+.site{display:inline-flex;align-items:center;gap:6px;font-size:14px;margin-bottom:10px;text-decoration:none;background:var(--bg);padding:4px 10px;border-radius:20px}.site.app{display:flex;justify-content:center;background:var(--ink);color:#fff;border-color:var(--ink);font-weight:600;padding:11px 12px;margin-bottom:8px}.site.app svg{stroke:#fff}.site.sub{font-size:13px;opacity:.75}
 .cal{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:12px 0}
 .mo{border:1px solid var(--line);border-radius:14px;padding:10px 12px 12px;min-height:92px}
 .mo b{font-size:15px}.mo.hot{border-color:var(--brass);background:#fdfbf6}
@@ -198,7 +198,15 @@ const CARDS=[
 ['NH농협카드','card.nonghyup.com',1,'신청 후 몇 분',['로그인 → 마이 → 이용내역 → 개인사업자용 이용내역','구분 ‘채움카드’로 기간(1년 이내)을 넣고 매출내역 생성 신청','구분 ‘비씨카드’로 바꿔 한 번 더 신청','몇 분 뒤 리스트에서 ‘정상처리’된 줄 [조회] → 엑셀로 저장'],'채움·비씨 둘 다 보내 주세요.',['마이','이용내역','개인사업자용 이용내역'],'엑셀 저장',['채움카드','비씨카드'],'생성 신청','정상처리'],
 ['우리카드','www.wooricard.com',1,'신청 후 한 시간쯤',['로그인 → 종합소득세/부가세 카드내역 → 신청 (기간 설정)','한 시간쯤 뒤 다시 로그인 → 신청결과조회에서 ‘완료’ 확인','내역 조회 → 엑셀로 저장'],'신청은 한 건만 남습니다. 받기 전에 다시 신청하지 마세요.',['종합소득세/부가세 카드내역','신청결과조회'],'엑셀 저장',null,'신청','완료']
 ];
-const cardOne=c=>`<details><summary><span class="nm">${c[0]}</span><span class="bd${c[2]?' w':''}">${c[3]}</span></summary><div class="in"><a class="site" href="https://${c[1]}" target="_blank" rel="noopener">${ic('link')}${c[1]}</a>${steps(c[4])}${shot(c)}${c[5]?note(c[5]):''}</div></details>`;
+// 휴대폰에서는 카드사 앱으로 (2026-11-25) — 앱 이름 · 안드로이드 패키지 · 아이폰 App Store 번호 (스토어에서 확인한 값). 삼성카드 앱은 2026.6.28 종료 → 모니모
+const UA=navigator.userAgent,IS_AND=/Android/i.test(UA),IS_IOS=/iPhone|iPad|iPod/i.test(UA)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1),MOBILE=IS_AND||IS_IOS;
+const APPS={'신한카드':['신한 SOL페이','com.shcard.smartpay','572462317'],'KB국민카드':['KB Pay','com.kbcard.cxh.appcard','695436326'],'삼성카드':['모니모','net.ib.android.smcard','379577046'],
+ '현대카드':['현대카드','com.hyundaicard.appcard','702653088'],'롯데카드':['디지로카','com.lcacApp','688047200'],'하나카드':['하나Pay','com.hanaskcard.paycla','847268987'],
+ '비씨카드':['페이북','kvp.jjy.MispAndroid320','369125087'],'NH농협카드':['NH pay','nh.smart.nhallonepay','1177889176'],'우리카드':['우리WON카드','com.wooricard.smartapp','1499598869']};
+const appLink=c=>{const a=APPS[c[0]];if(!a||!MOBILE)return '';const web='https://play.google.com/store/apps/details?id='+a[1];
+ const href=IS_AND?`intent://details?id=${a[1]}#Intent;scheme=market;package=com.android.vending;S.browser_fallback_url=${encodeURIComponent(web)};end`:`https://apps.apple.com/kr/app/id${a[2]}`;
+ return `<a class="site app" href="${href}">${ic('link')}${a[0]} 앱 열기</a>`;};
+const cardOne=c=>`<details><summary><span class="nm">${c[0]}</span><span class="bd${c[2]?' w':''}">${c[3]}</span></summary><div class="in">${appLink(c)}<a class="site${MOBILE?' sub':''}" href="https://${c[1]}" target="_blank" rel="noopener">${ic('link')}${MOBILE?'PC에서는 ':''}${c[1]}</a>${steps(c[4])}${shot(c)}${c[5]?note(c[5]):''}</div></details>`;
 const LAW='부가가치세법·시행령 현행 조문으로 확인 (2026년 11월 25일) · 세무사 최종 검토 전';
 
 const DATA=[
@@ -210,6 +218,7 @@ const DATA=[
  <h3>어느 기간을 받나요</h3>
  ${rows([['부가가치세 신고 때','신고하는 기간 · 상반기 1.1~6.30, 하반기 7.1~12.31','7월 · 1월'],['종합소득세 결산 때','1.1~12.31 한 해 전체','연 1회']])}
  ${tip('담당자가 기간을 따로 말씀드렸으면 그 기간으로 받아 주세요. 사업에 쓰는 카드사마다 한 번씩 해 주셔야 합니다.')}
+ ${MOBILE?note('<b>휴대폰에서는</b> 아래 카드사를 눌러 <b>[앱 열기]</b>를 누르세요. 스토어 화면이 뜨면 [열기]를 누르면 카드사 앱이 열립니다(앱이 없으면 설치). 앱에서도 아래와 같은 이름의 메뉴를 찾아 주세요. 앱에 그 메뉴가 없으면 PC에서 카드사 홈페이지로 받아 주세요.'):''}
  ${note('어느 카드가 홈택스에 등록돼 있는지 따지지 않으셔도 됩니다. 카드사에서 받은 파일을 그대로 보내 주시면 홈택스 자료와 겹치는 부분은 사무소가 걸러 냅니다. 공동대표·가족 이름으로 된 카드는 <b>명의자 이름</b>을 함께 알려 주세요.')}
  <h3>바로 조회되는 카드사</h3>${CARDS.filter(c=>!c[2]).map(cardOne).join('')}
  <h3>신청하고 기다려야 하는 카드사</h3>${CARDS.filter(c=>c[2]).map(cardOne).join('')}
