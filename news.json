@@ -1,11 +1,23 @@
 {
-  "updated": "2026.11.24",
+  "updated": "2026.11.25",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "2026 다자개발은행(MDB) 프로젝트 플라자 개최",
+      "date": "2026.11.24",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000080029"
+    },
     {
       "src": "재정경제부",
       "title": "「아세안+3 재무차관 및 중앙은행 부총재회의」 참석",
       "date": "2026.11.24",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000080035"
+    },
+    {
+      "src": "재정경제부",
+      "title": "2026년 비공개기록물 공개재분류 결과",
+      "date": "2026.11.24",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000030&menuNo=4050100&searchNttId=MOSF_000000000080039"
     },
     {
       "src": "재정경제부",
@@ -78,18 +90,6 @@
       "title": "전략경제자문단 AI에이전트커머스분과 현장방문",
       "date": "2026.11.16",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079966"
-    },
-    {
-      "src": "재정경제부",
-      "title": "국유재산 안전관리 체계 고도화 추진",
-      "date": "2026.11.16",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079967"
-    },
-    {
-      "src": "재정경제부",
-      "title": "경제현안간담회 개최",
-      "date": "2026.11.15",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079962"
     }
   ]
 }
