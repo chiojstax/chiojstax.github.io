@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>고객 안내서 · 최주석세무회계사무소</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#14233A;--deep:#0E1A2C;--brass:#A8894F;--sub:#6B7078;--line:#D9DCE0;--bg:#F7F8FA;--card:#fff;--pt:#7A6233;--ptbg:#F6F0E4;--grn:#0f5c4d;--grnbg:#e6f2ee;--warn:#8a5a00;--warnbg:#fbf1dc;--red:#B4462F;--redbg:#f8e9e6;--blue:#24508f;--bluebg:#e8eff9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Pretendard Variable",Pretendard,"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;line-height:1.65;font-size:16px;color:#22262B;word-break:keep-all}
+a{color:var(--pt)}
+svg{width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.wrap{max-width:860px;margin:0 auto;padding:0 18px}
+header{background:var(--deep);color:#fff;padding:24px 0 28px;border-bottom:3px solid var(--brass)}
+header .top strong{letter-spacing:.2px}header .top strong::before{content:'';display:inline-block;width:18px;height:2px;background:var(--brass);vertical-align:middle;margin-right:8px}header .top{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:14px}
+header .top a{color:#cfd6e4;text-decoration:none}
+header h1{margin:16px 0 4px;font-size:26px;font-weight:700;letter-spacing:-.5px}
+header p{margin:0 0 16px;color:#cfd6e4;font-size:15px}
+.sb{display:flex;align-items:center;gap:10px;background:#fff;border-radius:12px;padding:0 14px;color:var(--sub);font-size:20px}
+#q{flex:1;padding:13px 0;border:0;outline:0;font-size:16px;font-family:inherit;background:transparent;min-width:0}
+main{padding:20px 0 40px}
+.quick{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:22px}
+.quick a{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 6px 12px;text-align:center;text-decoration:none;color:var(--ink);font-size:13.5px;font-weight:600;line-height:1.35}
+.quick .ic{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:24px;margin:0 auto 8px;background:var(--ink);color:#C2A56E}
+
+.sec{font-size:13px;font-weight:700;color:var(--sub);letter-spacing:.5px;margin:0 2px 10px}
+.cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.cat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 16px 8px}
+.cat .hd{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+.cat .ic{width:40px;height:40px;border-radius:11px;background:var(--ink);color:#C2A56E;display:flex;align-items:center;justify-content:center;font-size:22px;flex:none}
+.cat h2{margin:0;font-size:17px;font-weight:700;line-height:1.3}
+.cat .d{margin:0;color:var(--sub);font-size:13px;line-height:1.4}
+.cat ul{list-style:none;margin:0;padding:0}
+.cat li a{display:flex;align-items:center;gap:8px;padding:10px 0;border-top:1px solid var(--line);text-decoration:none;color:var(--ink);font-size:15px}
+.cat li a span:first-child{flex:1}
+.cat li a svg{color:#b5bcc9;font-size:16px}
+.cat li a.off{color:#98a0ae}
+.tag{flex:none;font-size:11.5px;padding:1px 8px;border-radius:20px;background:#eef0f4;color:var(--sub)}
+.back{display:inline-flex;align-items:center;gap:4px;margin-bottom:12px;font-size:15px;text-decoration:none}
+article{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 20px 26px}
+.crumb{display:inline-block;font-size:12.5px;font-weight:700;color:var(--pt);background:var(--ptbg);padding:2px 10px;border-radius:20px}
+article h2{margin:10px 0 2px;font-size:24px;letter-spacing:-.5px;line-height:1.3}
+.meta{color:var(--sub);font-size:12.5px;margin-bottom:6px}
+.lead{font-size:16.5px;color:#2c3a52;margin:12px 0 4px}
+article h3{display:flex;align-items:center;gap:8px;margin:30px 0 12px;font-size:18px}
+article h3::before{content:"";width:5px;height:18px;border-radius:3px;background:var(--brass)}
+.keys{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:14px 0}
+.key{background:var(--bg);border-radius:14px;padding:14px 14px 12px}
+.key b{display:block;font-size:22px;letter-spacing:-.5px;color:var(--ink);line-height:1.2}.key{border-left:3px solid var(--brass)}
+.key span{font-size:13px;color:var(--sub);line-height:1.4;display:block;margin-top:4px}
+.steps{list-style:none;margin:12px 0;padding:0;counter-reset:s}
+.steps li{position:relative;padding:0 0 16px 46px;counter-increment:s}
+.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--ink);color:#fff;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center}
+.steps li::after{content:"";position:absolute;left:14px;top:32px;bottom:2px;width:2px;background:var(--line)}
+.steps li:last-child{padding-bottom:2px}.steps li:last-child::after{display:none}
+.steps b{display:block;font-size:16px}
+.steps span{color:var(--sub);font-size:14.5px}
+.chk,.xs{list-style:none;margin:10px 0;padding:0}
+.chk li,.xs li{display:flex;gap:10px;align-items:flex-start;padding:7px 0;font-size:15.5px}
+.chk svg,.xs svg{font-size:20px;margin-top:2px;color:var(--grn)}
+.xs svg{color:var(--red)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:12px 0}
+.box{border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.box .bh{padding:10px 14px;font-weight:700;font-size:15px;background:var(--bluebg);color:var(--blue);display:flex;align-items:center;gap:8px}
+.box.g .bh{background:var(--grnbg);color:var(--grn)}.box.y .bh{background:var(--warnbg);color:var(--warn)}
+.box .bb{padding:6px 14px 10px}
+.box dl{margin:0}.box dt{font-size:12.5px;color:var(--sub);margin-top:9px}.box dd{margin:0;font-size:15px;font-weight:600}
+.rows{border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:12px 0}
+.row{display:flex;gap:12px;align-items:center;padding:11px 14px;border-top:1px solid var(--line);font-size:15px}
+.row:first-child{border-top:0}.row.one b{width:auto!important;flex:1}.row.one span{display:none}
+.row b{flex:none;width:118px;font-size:14.5px}
+.row span{flex:1;color:#2c3a52}
+.row em{flex:none;font-style:normal;font-weight:700;color:var(--ink);font-size:14.5px}
+.note,.tip{display:flex;gap:10px;border-radius:12px;padding:12px 14px;font-size:14.5px;margin:14px 0;line-height:1.55}
+.note{background:var(--warnbg);color:var(--warn)}.tip{background:var(--ptbg);color:var(--pt)}
+.note svg,.tip svg{font-size:20px;margin-top:1px}
+details{border:1px solid var(--line);border-radius:14px;margin:8px 0;background:#fff;overflow:hidden}
+summary{cursor:pointer;padding:13px 14px;font-weight:700;display:flex;align-items:center;gap:10px;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary .nm{flex:1}
+summary::after{content:"";width:8px;height:8px;border-right:2px solid #9aa3b2;border-bottom:2px solid #9aa3b2;transform:rotate(45deg);margin:0 4px 4px 0;transition:transform .15s}
+details[open] summary::after{transform:rotate(225deg);margin-bottom:-4px}
+details[open] summary{border-bottom:1px solid var(--line);background:#fafbfc}
+.bd{font-size:12px;font-weight:700;padding:2px 9px;border-radius:20px;background:var(--grnbg);color:var(--grn)}
+.bd.w{background:var(--warnbg);color:var(--warn)}
+.qm{width:26px;height:26px;border-radius:8px;background:var(--bluebg);color:var(--blue);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;flex:none}
+details .in{padding:14px 14px 12px}
+details .in p{margin:0 0 8px}
+.site{display:inline-flex;align-items:center;gap:6px;font-size:14px;margin-bottom:10px;text-decoration:none;background:var(--bg);padding:4px 10px;border-radius:20px}
+.cal{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:12px 0}
+.mo{border:1px solid var(--line);border-radius:14px;padding:10px 12px 12px;min-height:92px}
+.mo b{font-size:15px}.mo.hot{border-color:var(--brass);background:#fdfbf6}
+.ev{display:block;font-size:13px;margin-top:6px;padding:3px 8px;border-radius:8px;background:var(--bluebg);color:var(--blue);line-height:1.35}
+.ev.v{background:var(--grnbg);color:var(--grn)}.ev.i{background:var(--warnbg);color:var(--warn)}.ev.c{background:var(--redbg);color:var(--red)}
+.ev i{font-style:normal;font-weight:700}
+.shot{border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:12px 0 2px;background:#fff;font-size:12.5px}
+.shot .bar{display:flex;gap:5px;align-items:center;padding:7px 10px;background:#eceef2}
+.shot .bar i{width:8px;height:8px;border-radius:50%;background:#c9ced7}
+.shot .bar span{margin-left:6px;flex:1;background:#fff;border-radius:20px;padding:2px 10px;color:var(--sub);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.shot .bd2{padding:10px 12px 12px;display:grid;gap:9px}
+.shot .nav{display:flex;flex-wrap:wrap;align-items:center;gap:5px;color:#9aa1ad}
+.shot .nav b{font-weight:600;background:#f1f3f6;color:#4a5261;border-radius:6px;padding:3px 8px}
+.shot .nav b.on{background:#fff;color:var(--ink);box-shadow:0 0 0 2px var(--brass)}
+.shot .frm{display:flex;flex-wrap:wrap;align-items:center;gap:6px;color:var(--sub)}
+.shot .frm u{text-decoration:none;border:1px solid var(--line);border-radius:6px;padding:3px 8px;color:#22262B;background:#fff}
+.shot .frm s{text-decoration:none;border-radius:6px;padding:3px 10px;background:#4a5261;color:#fff;font-weight:600}
+.shot .frm s.on,.shot .act s{background:var(--ink);color:#fff;box-shadow:0 0 0 2px #fff,0 0 0 4px var(--brass)}
+.shot .ln{height:8px;border-radius:4px;background:#eef0f3}
+.shot .ln.s{width:62%}
+.shot .st{display:flex;align-items:center;gap:8px;border:1px dashed var(--line);border-radius:8px;padding:6px 8px;color:var(--sub)}
+.shot .st em{font-style:normal;font-weight:700;color:var(--grn);background:var(--grnbg);border-radius:20px;padding:1px 8px}
+.shot .act{display:flex;justify-content:flex-end;align-items:center;gap:8px;color:var(--pt);font-weight:600}
+.shot .act s{text-decoration:none;border-radius:6px;padding:4px 12px;font-weight:700}
+.cap{font-size:12px;color:#9aa1ad;margin:4px 2px 0}
+.flow{display:flex;flex-wrap:wrap;align-items:stretch;gap:6px;margin:12px 0}
+.flow div{flex:1 1 120px;background:var(--bg);border-radius:12px;padding:10px 12px;font-size:14px;line-height:1.45;position:relative}
+.flow div b{display:block;font-size:15px;color:var(--ink)}
+.flow div span{color:var(--sub);font-size:13px}
+.flow div i{font-style:normal;display:inline-block;font-size:11.5px;font-weight:700;color:var(--pt);background:var(--ptbg);border-radius:20px;padding:0 8px;margin-bottom:4px}
+.btns{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px}
+.btn{display:inline-flex;align-items:center;gap:6px;background:var(--ink);color:#fff;text-decoration:none;padding:11px 16px;border-radius:12px;font-size:15px;font-weight:600}
+.btn.g{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.soon{text-align:center;padding:26px 10px;color:var(--sub)}
+.soon .ic{font-size:40px;color:#b5bcc9}
+footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--sub);font-size:13.5px}
+.empty{color:var(--sub);padding:20px 4px}
+@media(max-width:560px){header h1{font-size:22px}article{padding:18px 15px 22px}article h2{font-size:21px}.quick{gap:8px}.quick a{font-size:12.5px}.row{flex-wrap:wrap;gap:2px 12px}.row b{width:100%}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="top"><strong>최주석세무회계사무소</strong><a href="https://chiojstax.github.io">홈페이지로</a></div>
+  <h1>고객 안내서</h1>
+  <p>세금 정보와 자료 보내는 방법을 모았습니다.</p>
+  <div class="sb"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" placeholder="부가세, 카드내역, 사업자등록" aria-label="안내서 찾기"></div>
+</div></header>
+<main><div class="wrap" id="view"></div></main>
+<footer><div class="wrap">
+  최주석세무회계사무소 · 서울특별시 성동구 광나루로 289 대영빌딩 302호<br>
+  전화 02-497-0081 · 팩스 02-497-0037 · chiojs@naver.com · 평일 09:00~18:00 (점심 12:00~13:00)<br>
+  세금 안내 글은 국세청 「신규사업자가 알아두면 유익한 세금정보」와 현행 세법을 바탕으로 사무소에서 정리한 것입니다. 실제 적용은 담당자와 상의해 주세요.
+</div></footer>
+
+<script>
+const KAKAO='http://pf.kakao.com/_Ufxasxj/chat';
+const I={
+ card:'<rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3 10h18M7 15h4"/>',
+ send:'<path d="M21 3 10 14M21 3l-7 18-4-7-7-4z"/>',
+ hello:'<path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.6-7 10-7 10z"/>',
+ shop:'<path d="M4 9 5.5 4h13L20 9M4 9v11h16V9M4 9h16M9 20v-6h6v6"/>',
+ start:'<path d="M12 3v4M5.6 5.6l2.8 2.8M3 12h4M12 21a6 6 0 0 0 6-6c0-3-2-5-6-8-4 3-6 5-6 8a6 6 0 0 0 6 6z"/>',
+ tax:'<path d="M6 3h12v18l-3-2-3 2-3-2-3 2zM9 8h6M9 12h6M9 16h3"/>',
+ cert:'<path d="M6 3h9l4 4v14H6zM14 3v5h5"/><path d="m9 14 2 2 4-4"/>',
+ shield:'<path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/>',
+ gift:'<path d="M4 11h16v10H4zM3 7h18v4H3zM12 7v14M12 7c-1-3-5-4-5-1.500S10 7 12 7zm0 0c1-3 5-4 5-1.500S14 7 12 7z"/>',
+ pin:'<path d="M12 21s7-6 7-11.500A7 7 0 0 0 5 9.500C5 15 12 21 12 21z"/><circle cx="12" cy="9.500" r="2.500"/>',
+ cal:'<rect x="3.500" y="5" width="17" height="15.500" rx="2.500"/><path d="M3.500 10h17M8 3v4M16 3v4"/>',
+ doc:'<path d="M6 3h9l4 4v14H6zM14 3v5h5M9 13h6M9 17h6"/>',
+ chk:'<circle cx="12" cy="12" r="9"/><path d="m8 12.500 2.700 2.700L16 9.500"/>',
+ x:'<circle cx="12" cy="12" r="9"/><path d="m9 9 6 6M15 9l-6 6"/>',
+ info:'<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.500v.500"/>',
+ bulb:'<path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.500 10.900c.600.500 1 1.200 1 2.100h5c0-.900.400-1.600 1-2.100A6 6 0 0 0 12 3z"/>',
+ go:'<path d="m9 6 6 6-6 6"/>',back:'<path d="m15 6-6 6 6 6"/>',
+ chat:'<path d="M4 5h16v11H9l-5 4z"/>',tel:'<path d="M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A16 16 0 0 1 4 5a1 1 0 0 1 1-1z"/>',
+ link:'<path d="M10 14a4 4 0 0 0 5.700 0l3-3a4 4 0 0 0-5.700-5.700L12 6.300M14 10a4 4 0 0 0-5.700 0l-3 3a4 4 0 0 0 5.700 5.700l1-1"/>',
+ clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>'
+};
+const ic=n=>`<svg viewBox="0 0 24 24" aria-hidden="true">${I[n]}</svg>`;
+const steps=a=>`<ol class="steps">${a.map(s=>Array.isArray(s)?`<li><b>${s[0]}</b><span>${s[1]}</span></li>`:`<li><b style="font-weight:500">${s}</b></li>`).join('')}</ol>`;
+const keys=a=>`<div class="keys">${a.map(k=>`<div class="key"><b>${k[0]}</b><span>${k[1]}</span></div>`).join('')}</div>`;
+const chk=a=>`<ul class="chk">${a.map(s=>`<li>${ic('chk')}<span>${s}</span></li>`).join('')}</ul>`;
+const xs=a=>`<ul class="xs">${a.map(s=>`<li>${ic('x')}<span>${s}</span></li>`).join('')}</ul>`;
+const tip=s=>`<div class="tip">${ic('bulb')}<span>${s}</span></div>`;
+const note=s=>`<div class="note">${ic('info')}<span>${s}</span></div>`;
+const rows=a=>`<div class="rows">${a.map(r=>`<div class="row${r[1]?'':' one'}"><b>${r[0]}</b><span>${r[1]}</span>${r[2]?`<em>${r[2]}</em>`:''}</div>`).join('')}</div>`;
+const box=(c,icn,t,body)=>`<div class="box ${c}"><div class="bh">${ic(icn)}${t}</div><div class="bb">${body}</div></div>`;
+const dl=a=>`<dl>${a.map(r=>`<dt>${r[0]}</dt><dd>${r[1]}</dd>`).join('')}</dl>`;
+const kbtn=(t='카카오톡으로 보내기')=>`<a class="btn" href="${KAKAO}">${ic('chat')}${t}</a>`;
+const faq=(q,a)=>`<details><summary><span class="qm">Q</span><span class="nm">${q}</span></summary><div class="in">${a}</div></details>`;
+const flow=a=>`<div class="flow">${a.map(s=>`<div>${s[2]?`<i>${s[2]}</i>`:''}<b>${s[0]}</b><span>${s[1]||''}</span></div>`).join('')}</div>`;
+const shot=c=>{const P=c[6],ap=c[2];return `<div class="shot" aria-hidden="true"><div class="bar"><i></i><i></i><i></i><span>${c[1]}</span></div><div class="bd2">
+<div class="nav">${P.map((x,i)=>`<b${i===P.length-1?' class="on"':''}>${x}</b>`).join('›')}</div>
+<div class="frm">${c[8]?c[8].map(x=>`<u>${x}</u>`).join(''):''}조회기간 <u>2026.01.01</u>~<u>2026.12.31</u><s${ap?' class="on"':''}>${ap?c[9]:'조회'}</s></div>
+${ap?`<div class="st">요청 결과<em>${c[10]}</em><span>이 줄을 선택</span></div>`:'<div class="ln"></div><div class="ln s"></div>'}
+<div class="act">여기를 누릅니다<s>${c[7]}</s></div></div></div><p class="cap">화면 그림입니다. 실제 화면과 모양이 다를 수 있습니다.</p>`;};
+const SOON=t=>`<div class="soon"><div class="ic">${ic('clock')}</div><p><b>준비 중인 글입니다</b><br>들어갈 내용: ${t}</p></div>`;
+
+const CARDS=[
+['신한카드','www.shinhancard.com',0,'바로 조회',['로그인 → 고객센터 → 개인사업자 이용내역','조회기간 설정 → 조회 (1년이 한 번에 됩니다)','맨 아래 [엑셀저장]'],'',['고객센터','개인사업자 이용내역'],'엑셀저장'],
+['KB국민카드','card.kbcard.com',0,'바로 조회',['로그인 → ‘부가세등 신고용’ 이용내역','기간 설정 → 조회 (한 번에 12개월까지)','엑셀로 저장'],'',['이용내역','부가세등 신고용'],'엑셀 저장'],
+['삼성카드','www.samsungcard.com',0,'바로 조회',['로그인 → ‘개인사업자용 카드 이용내역’','카드 전체 · 기간 설정 → 조회','엑셀로 저장'],'',['이용내역','개인사업자용 카드 이용내역'],'엑셀 저장'],
+['현대카드','www.hyundaicard.com',0,'바로 조회',['로그인 → ‘개인사업자 이용내역’','기간 설정 → 조회','[엑셀] (1년이 한 번에 됩니다)'],'',['이용내역','개인사업자 이용내역'],'엑셀'],
+['롯데카드','www.lottecard.co.kr',0,'바로 조회',['개인 로그인 → MY → 세금 신고용 카드이용내역','카드 전체 · 기간(매출일자) 설정 → 조회','엑셀로 저장'],'',['MY','세금 신고용 카드이용내역'],'엑셀 저장'],
+['하나카드','www.hanacard.co.kr',0,'바로 조회',['로그인 → 마이페이지 → 종합소득세이용내역','카드 전체 · 기간 설정 → 조회','엑셀로 저장 (새 창이 뜨면 닫지 말고 기다려 주세요)'],'',['마이페이지','종합소득세이용내역'],'엑셀 저장'],
+['비씨카드','www.bccard.com',1,'신청 후 5분',['로그인 → 개인사업자 매출내역(이용내역)','기간 설정 → [생성신청]','5분쯤 뒤 [요청결과]에서 ‘정상처리’된 줄 선택','상세 화면에서 [엑셀저장]'],'',['이용내역','개인사업자 매출내역'],'엑셀저장',null,'생성신청','정상처리'],
+['NH농협카드','card.nonghyup.com',1,'신청 후 몇 분',['로그인 → 마이 → 이용내역 → 개인사업자용 이용내역','구분 ‘채움카드’로 기간(1년 이내)을 넣고 매출내역 생성 신청','구분 ‘비씨카드’로 바꿔 한 번 더 신청','몇 분 뒤 리스트에서 ‘정상처리’된 줄 [조회] → 엑셀로 저장'],'채움·비씨 둘 다 보내 주세요.',['마이','이용내역','개인사업자용 이용내역'],'엑셀 저장',['채움카드','비씨카드'],'생성 신청','정상처리'],
+['우리카드','www.wooricard.com',1,'신청 후 한 시간쯤',['로그인 → 종합소득세/부가세 카드내역 → 신청 (기간 설정)','한 시간쯤 뒤 다시 로그인 → 신청결과조회에서 ‘완료’ 확인','내역 조회 → 엑셀로 저장'],'신청은 한 건만 남습니다. 받기 전에 다시 신청하지 마세요.',['종합소득세/부가세 카드내역','신청결과조회'],'엑셀 저장',null,'신청','완료']
+];
+const cardOne=c=>`<details><summary><span class="nm">${c[0]}</span><span class="bd${c[2]?' w':''}">${c[3]}</span></summary><div class="in"><a class="site" href="https://${c[1]}" target="_blank" rel="noopener">${ic('link')}${c[1]}</a>${steps(c[4])}${shot(c)}${c[5]?note(c[5]):''}</div></details>`;
+const LAW='부가가치세법·시행령 현행 조문으로 확인 (2026년 11월 25일) · 세무사 최종 검토 전';
+
+const DATA=[
+{t:'자료 보내는 방법',d:'사무소에 자료를 보내실 때',i:'send',a:[
+ {id:'card',t:'카드내역 보내기 (카드사 9곳)',on:1,meta:'PC 홈페이지 기준 · 2026년 11월',h:`
+ <p class="lead">사업에 쓰는 카드의 사용내역을 카드사 홈페이지에서 엑셀로 받아 보내 주세요.</p>
+ <h3>이렇게 하시면 됩니다</h3>
+ ${steps([['로그인','카드사 홈페이지에 카드 명의자 본인 인증으로'],['조회','아래 카드사별 메뉴에서 기간을 정해'],['엑셀로 저장','화면 캡처나 PDF가 아닌 엑셀 파일 그대로 (이름·내용을 고치지 않고)'],['보내기','카카오톡 채널 또는 chiojs@naver.com · 상호와 카드사 이름을 함께']])}
+ <h3>어느 기간을 받나요</h3>
+ ${rows([['부가가치세 신고 때','신고하는 기간 · 상반기 1.1~6.30, 하반기 7.1~12.31','7월 · 1월'],['종합소득세 결산 때','1.1~12.31 한 해 전체','연 1회']])}
+ ${tip('담당자가 기간을 따로 말씀드렸으면 그 기간으로 받아 주세요. 사업에 쓰는 카드사마다 한 번씩 해 주셔야 합니다.')}
+ ${note('어느 카드가 홈택스에 등록돼 있는지 따지지 않으셔도 됩니다. 카드사에서 받은 파일을 그대로 보내 주시면 홈택스 자료와 겹치는 부분은 사무소가 걸러 냅니다. 공동대표·가족 이름으로 된 카드는 <b>명의자 이름</b>을 함께 알려 주세요.')}
+ <h3>바로 조회되는 카드사</h3>${CARDS.filter(c=>!c[2]).map(cardOne).join('')}
+ <h3>신청하고 기다려야 하는 카드사</h3>${CARDS.filter(c=>c[2]).map(cardOne).join('')}
+ <h3>어려우실 때</h3>
+ <p>카드사 고객센터에 전화해 “올해 사용내역을 엑셀로 메일로 보내 달라”고 요청하셔도 됩니다. 받는 주소는 <b>chiojs@naver.com</b> 입니다.</p>
+ <div class="btns">${kbtn('카카오톡으로 파일 보내기')}</div>`},
+ {id:'docs',t:'신고별 제출 서류',on:1,meta:'2026년 11월',h:`
+ <p class="lead">신고마다 보내 주실 자료입니다. 빠진 자료가 있으면 담당자가 따로 연락드립니다.</p>
+ <div class="two">
+ ${box('g','tax','부가가치세',chk(['종이로 주고받은 세금계산서·계산서, 수입세금계산서','홈택스에 등록하지 않은 사업용 카드 사용내역 → <a href="#/card">받는 방법</a>','현금 매출, 배달앱·오픈마켓 정산 자료 → <a href="#/sales">받는 방법</a>','설비 구입·큰 계약처럼 큰 매출·매입이 예정돼 있으면 미리']))}
+ ${box('','doc','종합소득세 (결산)',chk(['부양가족 확인 · 사업 외 다른 소득','사업용 카드 1.1~12.31 사용내역','사업용 보험료 (자동차·화재·배상책임)','대출이자 납입증명 (원금·이자율이 적힌 은행 서식)','임대차계약서·관리비 고지서','차량·기계·비품 구입 계약서, 리스·렌탈 계약서','경조사비 내역, 간이영수증']))}
+ ${box('y','hello','인건비 (원천세)',chk(['입사자: 성명, 주민등록번호, 입사일, 급여','퇴사자: 퇴사일, 마지막 달 급여','일용직·프리랜서(3.3%) 지급 내역']))}
+ </div>
+ <h3>안내문에 적힌 것만 보내시면 됩니다</h3>
+ ${rows([['부가가치세','신고 전에 보내 드리는 「예상 부가세 안내문」','보내 주실 자료 · 기한'],['종합소득세','매년 11월 보내 드리는 「자료제출 명세서」','‘업체요청’ 줄'],['직원 연말정산','12월 「일괄제공 동의 요청」','<a href="#/yj">동의 방법</a>']])}
+ ${tip('4대보험료, 자동차세 같은 지방세, 세금계산서로 받는 전기·통신요금은 사무소가 조회합니다. 따로 보내지 않으셔도 됩니다.')}`},
+ {id:'send',t:'자료 보내는 곳',on:1,meta:'2026년 11월',h:`
+ ${rows([['카카오톡 채널','채팅방에 사진·파일을 바로'],['이메일','chiojs@naver.com'],['팩스','02-497-0037']])}
+ ${tip('상호를 꼭 함께 적어 주세요. 사진은 글자가 잘 보이게, 한 장에 서류 한 장씩 찍어 주시면 처리가 빠릅니다.')}
+ <div class="btns">${kbtn('카카오톡 채널 열기')}</div>`}]},
+{t:'매출 자료 확인 방법',d:'배달앱·오픈마켓·결제대행사',i:'shop',a:[
+ {id:'sales',t:'배달앱·오픈마켓·PG 매출 자료 받기',on:1,meta:'2026년 11월 · 메뉴 이름은 각 사이트 개편으로 바뀔 수 있습니다',h:`
+ <p class="lead">판매자(사장님) 화면에 로그인해 ‘부가세 신고자료’를 엑셀로 내려받아 보내 주세요.</p>
+ ${keys([['1.1 ~ 6.30','상반기 자료 기간'],['7.1 ~ 12.31','하반기 자료 기간']])}
+ <h3>배달앱</h3>
+ ${rows([['배달의민족','배민셀프서비스 → 부가세 신고내역'],['쿠팡이츠','스토어 포털 왼쪽 메뉴 → 부가세 신고자료'],['요기요','정산/세금 → 부가세신고자료']])}
+ <h3>오픈마켓</h3>
+ ${rows([['스마트스토어','정산관리 → 부가세신고 자료'],['쿠팡','정산관리 → 부가세신고 자료'],['G마켓·옥션','정산관리 → 부가세신고 자료']])}
+ ${note('오픈마켓은 사이트마다 메뉴 이름이 조금 다릅니다. 판매자 화면의 정산 메뉴에서 찾아 주세요.')}
+ <h3>결제대행사(PG)·간편결제</h3>
+ ${rows([['나이스페이먼츠','정산조회 → 세금계산서 → 부가세 참고자료'],['토스페이먼츠','내 상점 → 부가세신고 자료'],['KG이니시스','정산/세금계산서 → 세무신고조회'],['NHN KCP','정산관리 → 정산내역 → 부가세신고 참고자료'],['카카오페이','SETTLEMENT → 부가세 신고자료'],['네이버페이','정산관리 → 부가세신고']])}
+ <div class="btns">${kbtn('카카오톡으로 파일 보내기')}</div>`}]},
+{t:'사무소가 처음이세요?',d:'기장을 맡기신 뒤의 진행',i:'hello',a:[
+ {id:'start',t:'기장 시작 순서',on:1,meta:'사무소 확인 전 초안',h:`
+ ${steps([['상담','업종, 매출 규모, 직원 수를 듣고 필요한 신고를 정리합니다.'],['홈택스 수임동의','사무소가 대표님의 홈택스 자료를 볼 수 있게 동의해 주세요. 방법은 담당자가 안내합니다.'],['처음 자료 보내기','사업자등록증, 임대차계약서, 사업용 통장·카드 목록, 직원이 있으면 근로계약 내용'],['평소 자료 보내기','사무소가 전산으로 볼 수 없는 자료만 보내 주시면 됩니다.'],['신고·납부 안내','신고가 끝나면 납부할 세금과 기한을 알려 드립니다.']])}
+ <div class="btns"><a class="btn" href="#/auto">무엇을 보내야 하나요?${ic('go')}</a></div>`},
+ {id:'auto',t:'사무소가 확인하는 자료와 보내 주실 자료',on:1,meta:'사무소 확인 전 초안',h:`
+ <p class="lead">사무소가 전산으로 바로 볼 수 있는 자료는 준비하지 않으셔도 됩니다.</p>
+ <div class="two">
+ ${box('g','chk','사무소가 전산으로 확인',chk(['전자세금계산서·전자계산서','현금영수증 (사업자 지출증빙)','홈택스에 등록한 사업용 카드 사용분','4대보험료 고지 내역, 자동차세 등 지방세']))}
+ ${box('y','send','대표님이 보내 주실 자료',chk(['사업에 쓰는 카드 사용내역 (홈택스에 등록하지 않은 카드는 꼭) → <a href="#/card">카드내역 보내기</a>','종이 세금계산서·계산서, 간이영수증','배달앱·오픈마켓·PG 매출 → <a href="#/sales">매출 자료 받기</a>','현금 매출 내역','급여·일용직·프리랜서 지급 내역','통장 거래내역, 대출이자·보험료·임차료','차량·기계·비품을 샀을 때 계약서']))}
+ </div>
+ <h3>보내는 때</h3>
+ ${rows([['인건비 자료','급여·일용직·프리랜서','매달'],['카드·매출 자료','부가가치세 신고 전','1월 · 7월'],['결산 자료','11월에 보내 드리는 「자료제출 명세서」에 표시된 것','연 1회']])}
+ ${tip('법인은 4월과 10월에도 카드·매출 자료가 필요합니다. 부족한 자료는 담당자가 따로 요청드립니다.')}`},
+ {id:'agree',t:'홈택스 수임동의 방법',on:1,meta:'2026년 기준 · 홈택스 개편에 따라 메뉴 이름이 바뀔 수 있습니다',h:` <p class="lead">사무소가 대표님의 홈택스 자료를 보고 신고를 대신하려면, 홈택스에서 한 번 동의해 주셔야 합니다.</p>
+ ${steps([['홈택스 로그인','공동인증서·금융인증서·간편인증으로. 개인사업자는 사업자로 로그인합니다.'],['세무대리·납세관리','위쪽 메뉴에서 선택'],['나의 세무대리 관리 → 나의 세무대리 수임동의','최주석세무회계사무소가 보낸 요청이 보입니다.'],['동의','내용을 확인하고 [동의]를 누르면 끝']])}
+ ${note('사무소가 먼저 요청을 넣어야 목록에 나타납니다. 보이지 않으면 담당자에게 알려 주세요.')}
+ ${tip('손택스(모바일 홈택스)에서도 같은 메뉴로 동의할 수 있습니다. 예전에 맡기던 세무대리인이 있으면 같은 화면에서 해지해 주세요.')}
+ <div class="btns">${kbtn('동의가 안 될 때 문의하기')}</div>`},
+ {id:'faq',t:'자주 묻는 질문',on:1,meta:'사무소 확인 전 초안',h:
+ faq('급여와 4대보험 업무도 해 주나요?',chk(['급여대장 작성','원천세 신고와 납부서 전달','4대보험 취득·상실·보수총액 신고','연말정산'])+'<p>급여를 직원 계좌로 대신 보내 드리는 일은 하지 않습니다.</p>')+
+ faq('기장료는 언제부터 청구되나요?','<p>계약한 날이 아니라 <b>장부 작성이 필요한 달부터</b> 월 단위로 청구됩니다. 계약 전 기간의 장부까지 만들어야 하면 그 기간의 기장료(소급 기장료)가 따로 생깁니다.</p>')+
+ faq('기장료는 어떻게 내나요?',keys([['매달 5일','CMS 자동이체 출금'],['매달 10일','세금계산서 일괄 발급']])+'<p>출금 계좌를 바꾸시려면 CMS 신청서를 새로 써 주셔야 합니다. 등록이 늦어지면 다음 달에 함께 출금될 수 있습니다.</p>')+
+ faq('사업장이 여러 개면 기장료는 따로 내나요?','<p>네. 사업자등록번호마다 장부와 신고가 따로 이루어지므로 <b>사업자별로</b> 정해집니다. 폐업한 사업장은 기장료가 없지만, 폐업 뒤에 남은 신고가 있으면 그 비용은 청구될 수 있습니다.</p>')+
+ faq('조정료가 무엇인가요?','<p>1년 장부를 마감해 세금을 확정하는 <b>세무조정</b>에 드는 비용입니다.</p>'+rows([['청구 시기','법인세(3월) · 종합소득세(5~6월) 신고 때','연 1회'],['금액','매출 규모와 업무량에 따라 다름','청구서 안내']])+'<p>매출이 없는 해에도 신고는 해야 하므로 조정료가 생깁니다.</p>')+
+ faq('예상 손익이나 예상 세금을 미리 알 수 있나요?','<p>네. 부가가치세 신고 전에는 <b>예상 부가세</b>를, 연말에는 <b>예상손익계산서</b>를 안내해 드립니다. 그 밖에 필요하실 때는 담당자에게 요청해 주세요.</p>')+
+ faq('자료는 어떻게 보내나요?','<p>카카오톡 채널 채팅방, 이메일, 팩스로 보내실 수 있습니다. <a href="#/send">자료 보내는 곳</a>을 봐 주세요.</p>')+
+ faq('담당자는 누구인가요?','<p>업체마다 담당 직원이 정해져 있습니다. 모르실 때는 <b>02-497-0081</b>로 전화 주시면 연결해 드립니다.</p>')}]},
+{t:'사업이 처음이세요?',d:'사업을 시작할 때 챙길 것',i:'start',a:[
+ {id:'reg',t:'사업자등록',on:1,meta:LAW,h:`
+ <p class="lead">사업을 시작하면 사업장마다 사업자등록을 해야 합니다. 관할 세무서나 홈택스에서 신청합니다.</p>
+ ${keys([['20일 이내','사업을 시작한 날부터 신청'],['1%','등록이 늦으면 붙는 가산세 (공급가액 기준)'],['1억 400만원','간이과세 기준 연 매출 (부가세 포함)']])}
+ <h3>준비 서류</h3>
+ ${chk(['사업자등록신청서','임대차계약서 사본 (사업장을 빌린 경우)','허가·등록·신고 업종이면 허가증 사본 (받기 전이면 신청서 사본이나 사업계획서)','동업이면 동업계약서'])}
+ <h3>등록을 안 하면</h3>
+ ${xs(['사업을 시작한 날부터 등록 신청 전날까지 공급가액의 1%가 가산세로 붙습니다','세금계산서를 받을 수 없어, 물건을 살 때 낸 부가가치세를 공제받지 못합니다'])}
+ <h3>과세유형 고르기</h3>
+ <div class="two">
+ ${box('','tax','일반과세자',chk(['연 매출 1억 400만원 이상 예상','간이과세를 할 수 없는 업종·지역','일반과세 사업장을 이미 갖고 있음']))}
+ ${box('g','tax','간이과세자',chk(['연 매출 1억 400만원 미만 예상','부동산임대업·과세유흥장소는 4,800만원 미만']))}
+ </div>
+ ${note('유형은 한 번 정하면 끝이 아닙니다. 신고 실적에 따라 다시 판정됩니다.')}
+ ${tip('사업을 시작하기 전에도 등록할 수 있습니다. 개업 준비로 산 물품의 세금계산서를 받으려면 미리 등록해 두세요.')}
+ <h3>등록할 때 같이 하면 좋은 것</h3>
+ ${chk(['홈택스 회원가입','사업용 계좌 신고, 사업용 신용카드 등록','현금영수증 가맹점 가입'])}`},
+ {id:'type',t:'개인사업자와 법인사업자',on:1,meta:'현행 세법 조문으로 확인 (2026년 11월 25일) · 세무사 최종 검토 전',h:` <p class="lead">같은 장사를 해도 개인사업자와 법인은 세금 종류와 돈을 쓰는 방식이 다릅니다.</p>
+ <div class="two">
+ ${box('','hello','개인사업자',dl([['내는 세금','종합소득세 6~45% (8단계)'],['신고','다음 해 5월 (성실신고 대상은 6월)'],['번 돈','사업주가 자유롭게 씁니다'],['부가가치세','1월·7월 신고, 4월·10월 예정고지'],['시작','사업자등록']]))}
+ ${box('g','shop','법인사업자',dl([['내는 세금','법인세 10~25% (4단계)'],['신고','결산 뒤 3개월 안 (12월 결산은 3월 말)'],['번 돈','급여·배당으로 가져가고 그때 소득세를 냅니다'],['부가가치세','1·4·7·10월 신고'],['시작','법인 설립등기 + 사업자등록']]))}
+ </div>
+ <h3>법인세율</h3>
+ ${rows([['2억원 이하','과세표준','10%'],['2억원 초과 ~ 200억원','','20%'],['200억원 초과 ~ 3천억원','','22%'],['3천억원 초과','','25%']])}
+ ${tip('어느 쪽이 유리한지는 이익 규모와 돈을 꺼내 쓰는 방식에 따라 달라집니다. 법인 전환을 생각하신다면 먼저 상담해 주세요.')}
+ <div class="btns"><a class="btn" href="#/consult">상담 예약${ic('go')}</a></div>`},
+ {id:'acct',t:'사업용 계좌와 차명계좌',on:1,meta:'현행 세법 조문으로 확인 (2026년 11월 25일) · 세무사 최종 검토 전',h:` <p class="lead">사업에 쓰는 돈은 사업자 본인 명의 계좌로 주고받아야 합니다. 일정 규모가 넘으면 ‘사업용 계좌’를 세무서에 신고해야 합니다.</p>
+ ${keys([['6개월 이내','복식부기의무자가 된 해의 1월 1일부터 신고 (보통 6월 30일까지)'],['0.2%','쓰지 않았거나 신고하지 않은 금액에 붙는 가산세']])}
+ <h3>사업용 계좌를 써야 하는 거래</h3>
+ ${chk(['거래 대금을 은행 등 금융회사를 통해 주고받을 때','인건비와 임차료를 주고받을 때'])}
+ <h3>신고해야 하는 사업자 (복식부기의무자)</h3>
+ ${rows([['도소매·농어업 등','직전 연도 수입금액','3억원 이상'],['제조·음식·숙박·건설·운수 등','직전 연도 수입금액','1억 5천만원 이상'],['서비스·임대·보건·교육 등','직전 연도 수입금액','7,500만원 이상']])}
+ ${note('의사·약사·변호사·세무사 같은 전문직 사업자는 수입금액과 관계없이 대상입니다.')}
+ <h3>차명계좌는 쓰면 안 됩니다</h3>
+ ${xs(['가족·직원·법인 대표자 개인 명의 계좌로 거래 대금을 받는 것은 차명계좌 사용입니다','신고가 들어가면 세무조사 대상이 될 수 있습니다','매출 누락이 확인되면 세금에 더해 가산세가 붙고, 고발될 수도 있습니다'])}
+ ${tip('계좌를 바꾸거나 추가하면 종합소득세 신고 기한까지 신고해야 합니다. 새 통장을 만드시면 담당자에게 알려 주세요.')}`},
+ {id:'hometax',t:'홈택스 이용 방법',on:1,meta:'국세청 안내 책자(2023년 하반기판) 바탕 · 바뀐 내용이 있을 수 있습니다',h:` <p class="lead">홈택스는 세금 신고·납부와 증명 발급을 인터넷으로 하는 국세청 사이트입니다. 모바일 앱은 ‘손택스’입니다.</p>
+ <h3>대표님이 직접 쓰실 일</h3>
+ <div class="two">
+ ${box('','cert','자주 쓰는 기능',chk(['<a href="#/agree">세무대리 수임동의</a>','<a href="#/pay">세금 납부</a>','<a href="#/cert">증명 발급</a>','전자세금계산서 발급','사업용 신용카드 등록']))}
+ ${box('g','chk','사무소가 대신 하는 일',chk(['부가가치세·종합소득세·법인세 신고','원천세 신고와 지급명세서 제출','신고에 필요한 자료 조회']))}
+ </div>
+ <h3>회원가입</h3>
+ ${steps([['홈택스 접속','www.hometax.go.kr 또는 손택스 앱'],['본인 인증','공동·금융인증서, 간편인증, 휴대전화 등'],['사업자 회원으로 가입','사업자등록번호로 가입하면 사업장 자료를 볼 수 있습니다']])}
+ ${tip('My홈택스에서 신고·납부 내역, 환급금, 세금포인트를 한곳에서 볼 수 있습니다.')}`},
+ {id:'cash',t:'현금영수증 가맹·발급',on:1,meta:'현행 세법 조문으로 확인 (2026년 11월 25일) · 세무사 최종 검토 전 (가입 대상은 국세청 책자 기준)',h:` <p class="lead">손님에게 현금을 받으면 현금영수증을 발급해야 합니다. 업종에 따라서는 손님이 요청하지 않아도 의무입니다.</p>
+ ${keys([['10만원 이상','의무발행업종은 요청이 없어도 발급'],['20%','발급하지 않았을 때 가산세 (10일 안에 스스로 발급하면 10%)'],['5%','발급을 거부했을 때 가산세'],['1%','가맹점에 가입하지 않았을 때 가산세']])}
+ <h3>가맹점으로 가입해야 하는 사업자</h3>
+ ${chk(['소비자를 상대하는 업종으로 직전 연도 수입금액 2,400만원 이상인 개인사업자','소비자를 상대하는 업종의 법인','병·의원, 약국 등 의료보건업','변호사·세무사 등 전문직','현금영수증 의무발행업종 (학원, 미용, 인테리어, 통신판매 등)'])}
+ <h3>가입 기한</h3>
+ ${rows([['업종 요건에 해당','해당한 날부터','60일 이내'],['수입금액 요건에 해당','해당한 달의 말일부터','3개월 이내']])}
+ ${tip('손님이 번호를 알려 주지 않으면 국세청 지정번호 010-000-1234로 발급하면 됩니다.')}
+ <h3>받는 쪽일 때</h3>
+ <p>사업에 쓴 비용은 ‘지출증빙용’으로 받아야 부가가치세 매입세액을 공제받고 경비로 인정됩니다. 사업자등록번호로 받아 주세요.</p>`}]},
+{t:'세금 신고 알아보기',d:'언제, 무엇을 신고하는지',i:'tax',a:[
+ {id:'vat',t:'부가가치세',on:1,meta:LAW,h:`
+ <p class="lead">물건을 팔거나 서비스를 제공할 때 거래금액에 붙여 받아 두었다가 내는 세금입니다.</p>
+ ${keys([['받은 세금 − 낸 세금','매출세액에서 매입세액을 뺀 금액을 냅니다'],['25일','과세기간이 끝난 다음 달 신고·납부 기한']])}
+ <h3>신고·납부 기한</h3>
+ ${rows([['일반과세자 1기','1.1 ~ 6.30 실적','7월 25일'],['일반과세자 2기','7.1 ~ 12.31 실적','다음 해 1월 25일'],['간이과세자','1.1 ~ 12.31 실적','다음 해 1월 25일']])}
+ <h3>중간에 내는 세금</h3>
+ ${rows([['개인 일반과세자','세무서가 직전 납부세액의 절반을 예정고지','4월 · 10월'],['간이과세자','세무서가 직전 납부세액의 절반을 예정부과','7월'],['법인','예정신고를 직접 합니다','4월 · 10월']])}
+ ${note('고지·부과할 금액이 50만원 미만이면 나오지 않습니다. 직전 과세기간 공급가액이 1억 5천만원 미만인 법인은 예정신고 대신 예정고지를 받습니다.')}
+ <h3>일반과세자와 간이과세자</h3>
+ <div class="two">
+ ${box('','tax','일반과세자',dl([['기준','연 매출 1억 400만원 이상, 또는 간이과세 배제 업종·지역'],['매출세액','공급가액 × 10%'],['매입세액','전액 공제'],['세금계산서','발급 의무']]))}
+ ${box('g','tax','간이과세자',dl([['기준','연 매출 1억 400만원 미만'],['매출세액','공급대가 × 업종별 부가가치율(15~40%) × 10%'],['매입세액','매입액(공급대가) × 0.5%'],['세금계산서','직전 연도 매출 4,800만원 이상이면 발급 의무']]))}
+ </div>
+ ${tip('간이과세자는 한 해 매출이 4,800만원 미만이면 신고는 하되 납부는 면제됩니다. 매출 4,800만원 미만이거나 신규 간이과세자의 첫 과세기간에는 세금계산서 대신 영수증을 발급합니다.')}
+ <h3>전자세금계산서</h3>
+ ${keys([['모든 법인','사업을 시작한 날부터 의무'],['8천만원 이상','개인사업자: 직전 연도 공급가액 (면세 포함)'],['다음 해 7월 1일','기준을 넘긴 해의 다음 해부터 적용']])}
+ ${note('한 번 대상이 되면 그 뒤 매출이 줄어도 계속 전자세금계산서를 발급해야 합니다.')}
+ <h3>매입세액을 공제받지 못하는 경우</h3>
+ ${xs(['세금계산서를 받지 않았거나 내용이 사실과 다른 경우','사업과 직접 관련 없는 지출','승용차 구입·임차·유지 비용 (운수업 등 영업용 제외)','기업업무추진비(접대비) 지출','면세사업·토지 관련 지출','사업자등록 전 지출 (과세기간이 끝난 뒤 20일 안에 등록 신청하면 그 과세기간 분은 가능)'])}
+ ${tip('거래처가 정상 사업자인지는 홈택스 ‘사업자상태 조회’에서 확인할 수 있습니다. 폐업자나 다른 사람 명의의 세금계산서는 실제 거래가 있어도 공제받지 못합니다.')}
+ ${note('실제 거래 없이 세금계산서를 주고받으면 공급가액의 4%가 가산세로 붙습니다.')}`},
+ {id:'income',t:'종합소득세·경비율',on:1,meta:'현행 세법 조문으로 확인 (2026년 11월 25일) · 세무사 최종 검토 전',h:` <p class="lead">개인사업자가 1년 동안 번 소득에 내는 세금입니다. 사업소득에 근로·이자·배당·연금·기타소득을 합쳐서 계산합니다.</p>
+ ${keys([['5월 1일 ~ 31일','신고·납부 (성실신고 대상은 6월 30일까지)'],['11월','중간예납'],['6 ~ 45%','8단계 누진세율']])}
+ <h3>계산 순서</h3>
+ ${flow([['수입금액','1년 매출'],['− 필요경비','장부에 적힌 비용'],['− 소득공제','부양가족 등'],['× 세율','과세표준에 적용']])}
+ <h3>세율</h3>
+ ${rows([['1,400만원 이하','','6%'],['1,400만원 ~ 5,000만원','','15%'],['5,000만원 ~ 8,800만원','','24%'],['8,800만원 ~ 1억 5천만원','','35%'],['1억 5천만원 ~ 3억원','','38%'],['3억원 ~ 5억원','','40%'],['5억원 ~ 10억원','','42%'],['10억원 초과','','45%']])}
+ <h3>장부는 꼭 써야 합니다</h3>
+ <div class="two">
+ ${box('','doc','복식부기의무자',dl([['대상','직전 연도 수입금액이 아래 기준 이상, 전문직'],['방식','차변·대변으로 적는 정식 장부']]))}
+ ${box('g','doc','간편장부대상자',dl([['대상','새로 시작했거나 기준에 못 미치는 사업자'],['방식','가계부처럼 적는 간편장부']]))}
+ </div>
+ ${rows([['도소매·농어업 등','복식부기 기준','3억원'],['제조·음식·숙박·건설·운수 등','복식부기 기준','1억 5천만원'],['서비스·임대·보건·교육 등','복식부기 기준','7,500만원']])}
+ <h3>장부가 없으면</h3>
+ <p>실제 쓴 비용 대신 국세청이 정한 경비율로 소득을 계산합니다. 직전 연도 수입금액이 아래보다 적으면 단순경비율, 그 이상이면 기준경비율을 씁니다.</p>
+ ${rows([['도소매·농어업 등','단순경비율 기준','6천만원 미만'],['제조·음식·숙박·건설·운수 등','단순경비율 기준','3,600만원 미만'],['서비스·임대·보건·교육 등','단순경비율 기준','2,400만원 미만']])}
+ ${tip('장부를 쓰면 적자가 난 해의 손실을 15년 동안 이익에서 뺄 수 있습니다. 장부가 없으면 적자가 나도 인정받지 못합니다.')}
+ ${note('폐업했거나 적자여서 낼 세금이 없어도 신고는 해야 합니다. 신고하지 않으면 공제·감면을 받지 못하고 가산세가 붙습니다.')}`},
+ {id:'biz',t:'사업장현황신고·주택임대',on:1,meta:'현행 세법 조문으로 확인 (2026년 11월 25일) · 세무사 최종 검토 전 (가산세는 국세청 책자 기준)',h:` <p class="lead">부가가치세가 면제되는 개인사업자는 부가세 신고 대신 1년에 한 번 ‘사업장현황신고’를 합니다.</p>
+ ${keys([['2월 10일','지난해 수입금액과 사업장 현황 신고'],['면세 개인사업자','병·의원, 학원, 농·축·수산물 판매, 주택임대 등']])}
+ ${note('부가가치세를 신고하는 과세사업자와 법인은 대상이 아닙니다. 병·의원, 동물병원, 약국은 신고하지 않거나 적게 신고하면 그 수입금액의 0.5%가 가산세로 붙습니다.')}
+ <h3>주택임대소득: 누가 세금을 내나요</h3>
+ ${rows([['1주택','기준시가 12억원이 넘는 주택의 월세','월세만'],['2주택','월세 전부','월세'],['3주택 이상','월세 + 보증금 합계 3억원 초과분','월세·보증금']])}
+ ${tip('전용 40㎡ 이하이면서 기준시가 2억원 이하인 소형주택은 2026년 말까지 보증금을 계산할 때 주택 수에서 빠집니다. 기준시가 12억원이 넘는 주택 2채를 가진 경우에는 보증금도 과세될 수 있습니다.')}
+ <h3>신고 방법</h3>
+ <div class="two">
+ ${box('g','tax','연 2천만원 이하',dl([['방식','분리과세(14%)와 종합과세 중 선택'],['필요경비','수입의 50% (등록임대주택 60%)'],['추가 공제','다른 종합소득이 2천만원 이하이면 200만원 (등록임대주택 400만원)']]))}
+ ${box('','tax','연 2천만원 초과',dl([['방식','다른 소득과 합쳐 종합과세'],['세율','6 ~ 45%']]))}
+ </div>
+ ${note('임대를 시작하면 20일 안에 사업자등록을 해야 합니다.')}
+ <h3>보내 주실 자료</h3>
+ ${chk(['임대차계약서 (새로 쓰거나 바뀐 것) 사진','월세 받은 내역','보증금이 바뀌었으면 바뀐 날짜와 금액'])}
+ <div class="btns">${kbtn('계약서 사진 보내기')}</div>`},
+ {id:'wh',t:'원천징수·지급명세서',on:1,meta:'현행 세법 조문으로 확인 (2026년 11월 25일) · 세무사 최종 검토 전 (반기납부 대상은 국세청 책자 기준)',h:` <p class="lead">직원 급여나 프리랜서 용역비를 줄 때는 세금을 미리 떼고 주고, 뗀 세금을 대신 신고·납부합니다.</p>
+ ${flow([['지급','급여·용역비를 줄 때','1'],['원천징수','세금을 떼고 지급','2'],['신고·납부','다음 달 10일까지','3'],['지급명세서','누구에게 얼마 줬는지 제출','4']])}
+ ${keys([['다음 달 10일','원천세 신고·납부'],['3.3%','프리랜서(사업소득)에게 줄 때: 소득세 3% + 지방소득세 0.3%']])}
+ ${tip('직원 20명 이하 사업장은 승인을 받으면 1월 10일과 7월 10일, 반기에 한 번씩 낼 수 있습니다.')}
+ <h3>지급명세서 제출 기한</h3>
+ ${rows([['근로소득','간이지급명세서 7월 말·1월 말','지급명세서 3월 10일'],['일용근로','','다음 달 말일'],['사업소득 (3.3%)','간이지급명세서 다음 달 말일','지급명세서 3월 10일'],['퇴직소득','','다음 해 3월 10일'],['기타·이자·배당','','다음 해 2월 말']])}
+ ${note('근로소득 간이지급명세서는 2027년 1월 지급분부터 매달 제출로 바뀝니다. 늦게 내거나 빠뜨리면 가산세가 붙습니다.')}
+ <h3>대표님이 하실 일</h3>
+ ${chk(['매달 급여·일용직·프리랜서 지급 내역을 보내 주세요','입사·퇴사가 있으면 바로 알려 주세요','사무소가 보내 드린 납부서로 10일까지 납부해 주세요'])}
+ <div class="btns"><a class="btn" href="#/docs">보낼 자료 보기${ic('go')}</a></div>`},
+ {id:'yj',t:'직원 연말정산 — 일괄제공 동의',on:1,meta:'사무소 「일괄제공 동의 요청」 안내문 기준 · 2026년 11월',h:`
+ <p class="lead">직원분이 한 번만 동의하면, 연말정산 간소화자료를 따로 내려받아 내지 않아도 됩니다.</p>
+ ${keys([['약 3분','걸리는 시간'],['손택스 · 홈택스','동의하는 곳'],['안내문의 기한','언제까지']])}
+ <div class="two">
+ ${box('g','hello','휴대폰 (손택스 앱)',steps(['손택스 앱 로그인 (간편인증 · 비회원 가능)','전체메뉴 → 장려금·연말정산·기부금 → 연말정산간소화','간소화자료 일괄제공 확인(동의) 및 조회','회사 선택 → 동의함 체크 → 확인(동의)하기']))}
+ ${box('','doc','PC (홈택스)',steps(['hometax.go.kr 로그인 (간편인증 · 비회원 가능)','장려금·연말정산·기부금 → 연말정산간소화 → 연말정산 일괄제공 (근로자용)','일괄제공 동의/조회/취소','회사 선택 → 동의함 체크 → 확인(동의)하기']))}
+ </div>
+ <h3>알아 두실 점</h3>
+ ${chk(['작년에 동의하신 분은 같은 회사에 계속 다니시면 다시 하지 않으셔도 됩니다','동의는 같은 화면의 ‘제공동의 현황 및 취소’에서 언제든 확인·취소할 수 있습니다','회사 목록에 회사가 안 보이면 사무소가 명단에 아직 올리지 않은 것이니 연락 주세요'])}
+ ${tip('대표님께: 입사·퇴사로 직원 명단이 바뀌었으면 알려 주세요. 이 글의 주소를 직원분께 그대로 전달하셔도 됩니다.')}
+ <div class="btns">${kbtn('카카오톡으로 물어보기')}</div>`}]},
+{t:'증명 발급·납부',d:'제출 서류와 세금 내는 방법',i:'cert',a:[
+ {id:'cert',t:'국세증명 발급 방법',on:1,meta:'국세청 안내 책자(2023년 하반기판) 바탕 · 바뀐 내용이 있을 수 있습니다',h:` <p class="lead">은행 대출, 입찰, 관공서 제출에 필요한 국세 증명은 인터넷으로 바로 받을 수 있습니다.</p>
+ ${tip('필요한 증명이 있으면 담당자에게 말씀해 주세요. 사무소에서 발급해 보내 드릴 수 있습니다.')}
+ <h3>자주 쓰는 증명</h3>
+ ${chk(['사업자등록증명','납세증명서 (체납이 없다는 증명)','납부내역증명 (낸 세금 내역)','소득금액증명','부가가치세 과세표준증명 (매출 증명)','표준재무제표증명','휴업·폐업 사실증명'])}
+ <h3>받는 곳</h3>
+ ${rows([['홈택스','국세증명 메뉴에서 신청','24시간'],['손택스','민원증명 메뉴','모바일'],['정부24','www.gov.kr 민원 신청',''],['무인민원발급기','주민등록번호 입력 + 지문',''],['세무서·주민센터','민원실 방문','평일']])}
+ ${note('사실증명(체납내역, 사업자등록 변경내역 등)은 신청 뒤 근무시간 기준 3시간 안에 처리됩니다.')}`},
+ {id:'pay',t:'국세 납부',on:1,meta:'국세청 안내 책자(2023년 하반기판) 바탕 · 바뀐 내용이 있을 수 있습니다',h:` <p class="lead">신고가 끝나면 사무소가 납부서를 보내 드립니다. 가장 간단한 방법은 납부서에 적힌 가상계좌로 이체하는 것입니다.</p>
+ <h3>납부 방법</h3>
+ ${rows([['가상계좌 이체','납부서에 적힌 국세 가상계좌로','가장 간단'],['홈택스·손택스','국세납부 → 납부할 세액 조회납부','계좌·카드'],['인터넷지로·카드로택스','www.giro.or.kr','계좌·카드·간편결제'],['은행','창구, ATM, 인터넷뱅킹',''],['세무서','무인 카드수납기','평일 09~18시']])}
+ ${note('카드로 내면 납부대행 수수료를 납부하는 분이 부담합니다. 요율은 납부 화면에서 확인해 주세요.')}
+ ${tip('기한을 넘기면 납부지연가산세가 날마다 붙습니다. 기한 안에 내기 어려우면 미리 담당자와 상의해 주세요. 납부기한 연장을 신청할 수 있습니다.')}
+ <div class="btns"><a class="btn" href="#/cal">신고·납부 일정 보기${ic('go')}</a></div>`},
+ {id:'enotice',t:'전자고지 신청',on:1,meta:'현행 세법 조문으로 확인 (2026년 11월 25일) · 세무사 최종 검토 전 (공제 금액·신청 메뉴는 국세청 책자 기준)',h:` <p class="lead">세금 고지서를 종이 대신 홈택스·손택스로 받는 제도입니다. 신청하면 고지서마다 세액공제를 받습니다.</p>
+ ${keys([['1건당 1,000원','대상 고지서 세액공제'],['다음다음 달부터','신청한 달 기준으로 공제 시작']])}
+ <h3>공제되는 고지서</h3>
+ ${chk(['부가가치세 예정고지·예정부과','종합소득세 중간예납','그 밖에 세무서가 세액을 정해 고지하는 세금'])}
+ <h3>신청 순서</h3>
+ ${steps(['홈택스 또는 손택스 로그인','납부·고지·환급 → 국세고지','전자고지(송달) 신청'])}
+ <h3>알아 둘 점</h3>
+ ${xs(['신청하면 종이 고지서는 오지 않습니다','두 번 연속 납부기한까지 열어 보지 않으면 자동으로 해지되고, 30일 동안 다시 신청할 수 없습니다','열어 보지 않아도 홈택스에 저장된 때 고지서를 받은 것으로 봅니다'])}`}]},
+{t:'납세자 지원 제도',d:'알아 두면 도움이 되는 제도',i:'shield',a:[
+ {id:'eitc',t:'근로·자녀장려금',on:1,meta:'현행 세법 조문으로 확인 (2026년 11월 25일) · 세무사 최종 검토 전',h:` <p class="lead">일은 하지만 소득이 적은 근로자·사업자 가구에 국가가 주는 장려금입니다. 대표님 본인뿐 아니라 직원도 대상이 될 수 있습니다.</p>
+ <h3>근로장려금</h3>
+ ${rows([['단독 가구','부부 합산 총소득 2,200만원 미만','최대 165만원'],['홑벌이 가구','3,200만원 미만','최대 285만원'],['맞벌이 가구','4,400만원 미만','최대 330만원']])}
+ <h3>자녀장려금</h3>
+ ${keys([['7,000만원 미만','부부 합산 총소득'],['자녀 1명당 최대 100만원','18세 미만 부양자녀']])}
+ <h3>재산 요건 (공통)</h3>
+ ${keys([['2억 4천만원 미만','가구원 재산 합계 (부채는 빼지 않음)'],['절반 지급','재산이 1억 7천만원 이상이면 근로장려금 50%']])}
+ <h3>신청 기간</h3>
+ ${rows([['정기 신청','','5월 1일 ~ 31일'],['기한 후 신청','일부 감액됩니다','6월 1일 ~ 11월 30일'],['반기 신청','근로소득만 있는 경우','9월 1~15일 · 3월 1~15일']])}
+ ${note('변호사·세무사·의사 등 전문직 사업자, 다른 사람의 부양자녀인 사람은 신청할 수 없습니다.')}
+ ${tip('신청은 홈택스·손택스, 자동응답전화 1544-9944로 합니다. 국세청에서 안내문을 받으셨다면 대상일 가능성이 높습니다.')}`},
+ {id:'point',t:'세금포인트·모범납세자',on:1,meta:'국세청 안내 책자(2023년 하반기판) 바탕 · 바뀐 내용이 있을 수 있습니다',h:` <p class="lead">세금을 성실하게 낸 납세자에게 주는 혜택입니다. 알아 두면 쓸 일이 있습니다.</p>
+ <h3>세금포인트</h3>
+ <p>낸 소득세·법인세에 따라 쌓이는 포인트입니다. 홈택스 My홈택스 → 세금포인트에서 조회합니다.</p>
+ ${chk(['납부기한을 연장할 때 납세담보 면제 (최대 5억원)','소액 체납 시 재산 매각 유예','중소기업 제품 할인 쇼핑몰 5% 할인','국립중앙박물관·국립수목원 관람료 할인','인천공항 비즈니스센터 이용'])}
+ ${tip('자금 사정으로 세금 납부를 미뤄야 할 때 담보 없이 연장을 신청하는 데 쓸 수 있습니다.')}
+ <h3>모범납세자</h3>
+ <p>성실 납세로 선정되면 아래와 같은 우대를 받습니다.</p>
+ ${chk(['세무조사 유예','납세담보 제공 면제','금융 우대, 무역보험 우대','공항 출입국 우대, 공영주차장 이용','공공 입찰 적격심사 가점'])}
+ ${note('혜택의 내용과 기간은 훈격과 협약 기관에 따라 다릅니다.')}`},
+ {id:'right',t:'권리보호·불복청구',on:1,meta:'현행 세법 조문으로 확인 (2026년 11월 25일) · 세무사 최종 검토 전',h:` <p class="lead">세금이 잘못 나왔다고 생각되면 정해진 기간 안에 다시 판단해 달라고 요구할 수 있습니다. 기간이 지나면 다툴 수 없으니 날짜가 가장 중요합니다.</p>
+ ${flow([['과세전적부심사','세무조사 결과·과세예고 통지를 받았을 때','30일 이내'],['이의신청','고지서를 받은 뒤 (건너뛸 수 있음)','90일 이내'],['심사청구·심판청구','국세청 또는 조세심판원','90일 이내'],['행정소송','심사·심판 결정을 받은 뒤','90일 이내']])}
+ ${tip('고지서나 통지서를 받으시면 받은 날짜와 함께 바로 사진을 보내 주세요.')}
+ <h3>국선대리인 (무료)</h3>
+ <p>세무대리인을 선임하기 어려운 납세자를 위해 세무서가 대리인을 무료로 지원합니다.</p>
+ ${keys([['5천만원 이하','다투는 세액'],['개인','종합소득금액 5천만원 이하 · 재산 5억원 이하'],['법인','수입금액 3억원 이하 · 자산 5억원 이하']])}
+ ${xs(['상속세·증여세·종합부동산세는 지원 대상이 아닙니다'])}
+ <h3>권리보호요청</h3>
+ <p>세무조사 과정에서 부당한 일을 겪으면 세무서 납세자보호담당관에게 요청할 수 있습니다. 국번 없이 126으로 전화하면 연결됩니다.</p>
+ <div class="btns">${kbtn('고지서 사진 보내기')}</div>`}]},
+{t:'지원금·정책자금',d:'사업에 도움이 되는 정부 지원',i:'gift',a:[
+ {id:'hire',t:'고용 지원금·장려금',on:1,meta:'2026년 공고 기준 · 금액과 요건은 신청 전에 공고를 꼭 확인하세요',h:` <p class="lead">직원을 새로 뽑거나 고용을 유지할 때 받을 수 있는 지원입니다. 대부분 채용 전후로 기한이 정해져 있어 미리 확인해야 합니다.</p>
+ <h3>청년일자리도약장려금</h3>
+ ${keys([['1명당 1년 최대 720만원','기업 지원 (수도권형, 월 60만원 × 12개월)'],['15 ~ 34세','정규직으로 채용해 6개월 이상 유지']])}
+ ${rows([['대상 기업','고용보험 피보험자 5인 이상 우선지원대상기업','일부 업종은 1인 이상'],['2026년 개편','수도권형과 비수도권형으로 나뉨','비수도권은 청년도 지원'],['신청','고용24 (www.work24.go.kr)','관할 운영기관']])}
+ <h3>두루누리 사회보험료 지원</h3>
+ <p>근로자 10명 미만 사업장에서 급여가 일정 수준보다 낮은 근로자를 새로 가입시키면, 국민연금과 고용보험료의 일부를 국가가 지원합니다. 4대보험 취득 신고를 할 때 함께 신청합니다.</p>
+ ${note('지원금은 예산이 떨어지면 일찍 마감됩니다. 채용 계획이 있으면 채용 전에 담당자에게 알려 주세요.')}
+ ${tip('받은 지원금은 사업 수입으로 장부에 올려야 합니다. 받으시면 입금 내역을 보내 주세요.')}`},
+ {id:'baby',t:'육아휴직 관련 지원금',on:1,meta:'2026년 공고 기준 · 금액과 요건은 신청 전에 공고를 꼭 확인하세요',h:` <p class="lead">직원에게 육아휴직이나 근로시간 단축을 준 사업주가 받는 지원입니다.</p>
+ ${rows([['육아휴직 지원금','육아휴직·육아기 근로시간 단축을 30일 이상 준 사업주','월 30만원'],['대체인력 지원금','휴직자 자리에 대체인력을 쓴 경우 (30인 미만 사업장)','월 최대 140만원'],['육아기 10시 출근제','임금을 줄이지 않고 출근을 늦추거나 퇴근을 당겨 준 경우','월 30만원']])}
+ ${tip('육아휴직 지원금은 특례에 해당하면 처음 3개월은 월 100만원입니다. 2026년부터 대체인력 지원 기간에 복직 뒤 인수인계 1개월이 더해졌습니다.')}
+ <h3>신청</h3>
+ ${steps(['직원의 휴직·단축 시작일을 사무소에 알려 주세요 (4대보험 신고)','고용24 또는 관할 고용센터에 지원금 신청','지원금이 들어오면 입금 내역을 보내 주세요'])}
+ ${note('지원금 일부는 직원이 복직한 뒤 일정 기간 계속 고용해야 나머지를 받습니다.')}`},
+ {id:'loan',t:'중소기업·소상공인 정책자금',on:1,meta:'2026년 공고 기준 · 금액과 요건은 신청 전에 공고를 꼭 확인하세요',h:` <p class="lead">정부가 은행보다 낮은 금리로 빌려주는 사업 자금입니다. 갚아야 하는 대출이며, 예산이 정해져 있어 접수 시기가 중요합니다.</p>
+ <h3>소상공인 정책자금 (소상공인시장진흥공단)</h3>
+ ${rows([['일반경영안정자금','임차료·인건비·재료비 등 운영자금','최대 7,000만원'],['신용취약소상공인자금','중·저신용 소상공인',''],['긴급경영안정자금','재해·매출 감소',''],['대환대출','고금리 대출을 저금리로 전환',''],['재도전특별자금','재창업·채무조정 성실 상환',''],['성장기반자금','시설 투자 등','']])}
+ ${keys([['ols.semas.or.kr','소상공인 정책자금 누리집에서 신청'],['1357','중소기업 통합콜센터']])}
+ <h3>신청이 안 되는 경우</h3>
+ ${xs(['세금 체납이 있는 경우','금융 연체가 있는 경우','유흥·도박 등 지원 제외 업종'])}
+ ${tip('신청에는 재무제표, 부가가치세 과세표준증명, 납세증명서가 필요합니다. 사무소에서 준비해 드리니 신청 전에 말씀해 주세요.')}
+ ${note('금리는 분기마다 바뀌고, 예산이 떨어지면 접수가 마감됩니다. 규모가 큰 중소기업은 중소벤처기업진흥공단 정책자금을 이용합니다.')}`},
+ {id:'venture',t:'벤처기업 인증·연구소 설립',on:1,meta:'2026년 공고 기준 · 금액과 요건은 신청 전에 공고를 꼭 확인하세요',h:` <p class="lead">기술이나 성장성을 인정받으면 세금과 자금 조달에서 혜택을 받습니다.</p>
+ <h3>벤처기업 확인 유형</h3>
+ ${rows([['벤처투자유형','투자기관에서 투자를 받은 기업',''],['연구개발유형','연구소·전담부서가 있고 연구개발비 요건을 채운 기업',''],['혁신성장유형','기술의 혁신성과 사업의 성장성을 평가받은 기업',''],['예비벤처유형','법인 설립이나 사업자등록을 준비 중인 경우','']])}
+ <h3>기업부설연구소·전담부서</h3>
+ <p>한국산업기술진흥협회(KOITA)에서 인정을 받습니다. 인정받으면 연구원 인건비 등이 연구·인력개발비 세액공제 대상이 됩니다.</p>
+ ${note('국세청은 연구·인력개발비 부당 세액공제를 세무조사 중점 검증 항목으로 공개했습니다. 연구노트와 연구원 근무 기록을 평소에 남겨 두어야 합니다.')}
+ ${tip('벤처 확인이나 연구소 설립을 준비하신다면 요건과 받을 수 있는 공제를 먼저 계산해 드립니다.')}
+ <div class="btns"><a class="btn" href="#/consult">상담 예약${ic('go')}</a></div>`}]},
+{t:'사무소 안내',d:'일정 · 상담 · 위치',i:'pin',a:[
+ {id:'cal',t:'신고 일정',on:1,meta:'일반 기준 · 마감일이 주말·공휴일이면 다음 평일',h:`
+ ${tip('원천세는 <b>매달 10일</b>입니다. 자료는 마감 2주 전까지 보내 주시면 좋습니다.')}
+ <div class="cal">${[
+ ['1월',1,[['v','25일','부가가치세 확정'],['','10일','원천세 반기납부']]],['2월',0,[['c','10일','면세사업자 사업장현황신고'],['','직원','연말정산 (2월 급여)']]],['3월',1,[['c','31일','법인세 (12월 결산)']]],
+ ['4월',0,[['v','25일','부가가치세 예정']]],['5월',1,[['i','31일','종합소득세']]],['6월',0,[['i','30일','종합소득세 (성실신고)']]],
+ ['7월',1,[['v','25일','부가가치세 확정'],['','10일','원천세 반기납부']]],['8월',0,[]],['9월',0,[]],
+ ['10월',0,[['v','25일','부가가치세 예정']]],['11월',0,[['i','30일','종합소득세 중간예납'],['','안내','결산 자료제출 명세서 · 예상손익']]],['12월',0,[['','직원','연말정산 일괄제공 동의']]]
+ ].map(m=>`<div class="mo${m[1]?' hot':''}"><b>${m[0]}</b>${m[2].map(e=>`<span class="ev ${e[0]}"><i>${e[1]}</i> ${e[2]}</span>`).join('')}</div>`).join('')}</div>`},
+ {id:'consult',t:'상담 예약',on:1,meta:'',h:`
+ <p class="lead">아래 네 가지를 알려 주시면 담당자가 연락드립니다.</p>
+ ${steps(['성함 / 상호','연락처','상담 내용 (창업, 신고, 양도·증여 등)','원하시는 날짜·시간'])}
+ ${rows([['전화','02-497-0081'],['상담 시간','평일 09:00~18:00 (점심 12:00~13:00)']])}
+ <div class="btns">${kbtn('카카오톡 상담')}<a class="btn g" href="tel:02-497-0081">${ic('tel')}전화 걸기</a></div>`},
+ {id:'map',t:'오시는 길',on:1,meta:'',h:`
+ ${rows([['주소','서울특별시 성동구 광나루로 289 대영빌딩 302호'],['전화','02-497-0081']])}
+ <div class="btns"><a class="btn" href="https://map.kakao.com/?q=%EC%84%9C%EC%9A%B8%20%EC%84%B1%EB%8F%99%EA%B5%AC%20%EA%B4%91%EB%82%98%EB%A3%A8%EB%A1%9C%20289" target="_blank" rel="noopener">${ic('pin')}카카오맵에서 보기</a><a class="btn g" href="https://chiojstax.github.io/#/location">홈페이지 약도</a></div>`}]}
+];
+const QUICK=[['card','card','카드내역<br>보내기'],['sales','shop','매출 자료<br>받기'],['docs','doc','제출<br>서류'],['cal','cal','신고<br>일정']];
+const V=document.getElementById('view'),Q=document.getElementById('q');
+const strip=h=>h.replace(/<svg[\s\S]*?<\/svg>/g,' ').replace(/<[^>]+>/g,' ');
+function home(){
+  const k=Q.value.trim().toLowerCase();let out='';
+  DATA.forEach(c=>{
+    const as=c.a.filter(a=>!k||(a.t+' '+strip(a.h)).toLowerCase().includes(k));
+    if(!as.length)return;
+    out+=`<section class="cat"><div class="hd"><div class="ic">${ic(c.i)}</div><div><h2>${c.t}</h2><p class="d">${c.d}</p></div></div><ul>${as.map(a=>`<li><a href="#/${a.id}"${a.on?'':' class="off"'}><span>${a.t}</span>${a.on?ic('go'):'<span class="tag">준비 중</span>'}</a></li>`).join('')}</ul></section>`;
+  });
+  const quick=k?'':`<p class="sec">많이 찾는 안내</p><div class="quick">${QUICK.map(x=>`<a href="#/${x[0]}"><div class="ic">${ic(x[1])}</div>${x[2]}</a>`).join('')}</div><p class="sec">전체 안내</p>`;
+  V.innerHTML=out?quick+`<div class="cats">${out}</div>`:`<p class="empty">‘${Q.value.replace(/[<>&]/g,'')}’에 맞는 글이 없습니다. 카카오톡 채널로 물어봐 주세요.</p>`;
+}
+function show(){
+  const id=location.hash.replace(/^#\/?/,'');let hit=null;
+  DATA.forEach(c=>c.a.forEach(a=>{if(a.id===id)hit=[c,a];}));
+  if(!hit){home();return;}
+  V.innerHTML=`<a class="back" href="#/">${ic('back')}안내서 처음으로</a><article><span class="crumb">${hit[0].t}</span><h2>${hit[1].t}</h2>${hit[1].meta?`<div class="meta">${hit[1].meta}</div>`:''}${hit[1].h}</article>`;
+  window.scrollTo(0,0);
+}
+Q.addEventListener('input',()=>{if(location.hash.length>2)history.replaceState(null,'','#/');home();});
+window.addEventListener('hashchange',show);show();
+</script>
+</body>
+</html>
