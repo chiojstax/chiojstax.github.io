@@ -1,6 +1,36 @@
 {
-  "updated": "2026.11.25",
+  "updated": "2026.11.26",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "개인투자용 국채 12월 발행 미실시",
+      "date": "2026.11.26",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000080049"
+    },
+    {
+      "src": "재정경제부",
+      "title": "[보도참고] 2026년 3/4분기 가계동향조사 결과",
+      "date": "2026.11.26",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000080050"
+    },
+    {
+      "src": "재정경제부",
+      "title": "권대영 1차관, 「월급방위대 TF」 2차 회의 개최",
+      "date": "2026.11.26",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000080055"
+    },
+    {
+      "src": "재정경제부",
+      "title": "AI시대, 전략산업의 미래를 위한 정책과제 제안",
+      "date": "2026.11.26",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000080058"
+    },
+    {
+      "src": "재정경제부",
+      "title": "이형일 부총리, 임금체계 개편 우수기업 방문",
+      "date": "2026.11.25",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000080064"
+    },
     {
       "src": "재정경제부",
       "title": "2026 다자개발은행(MDB) 프로젝트 플라자 개최",
@@ -60,36 +90,6 @@
       "title": "경남창원 수출플러스간담회 개최",
       "date": "2026.11.18",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079984"
-    },
-    {
-      "src": "재정경제부",
-      "title": "대외경제협력기금-시민사회 간담회 개최",
-      "date": "2026.11.18",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079991"
-    },
-    {
-      "src": "재정경제부",
-      "title": "「양극화 대응 TF」 세대 격차 완화반 1차 회의 개최",
-      "date": "2026.11.18",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079988"
-    },
-    {
-      "src": "재정경제부",
-      "title": "[보도참고] '26년 국제통화기금(IMF) 연례협의 결과",
-      "date": "2026.11.17",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079980"
-    },
-    {
-      "src": "재정경제부",
-      "title": "「세무사 시험 부정행위 대응 TF」 킥오프 회의 및 세무사 시험 부정행위자 시험 무효 절차 개시",
-      "date": "2026.11.16",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079971"
-    },
-    {
-      "src": "재정경제부",
-      "title": "전략경제자문단 AI에이전트커머스분과 현장방문",
-      "date": "2026.11.16",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079966"
     }
   ]
 }
