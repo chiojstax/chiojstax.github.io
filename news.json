@@ -1,6 +1,12 @@
 {
-  "updated": "2026.11.27",
+  "updated": "2026.11.28",
   "items": [
+    {
+      "src": "재정경제부",
+      "title": "시장상황점검회의 개최",
+      "date": "2026.11.27",
+      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000080084"
+    },
     {
       "src": "재정경제부",
       "title": "「한중일 및 아세안+3 재무차관 및 중앙은행 부총재 회의」 참석 및 주요인사 면담 결과",
@@ -84,12 +90,6 @@
       "title": "'26.11월 국고채 「모집 방식 비경쟁인수」 발행 미실시",
       "date": "2026.11.19",
       "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000080007"
-    },
-    {
-      "src": "재정경제부",
-      "title": "2026년 3분기말 대외채권채무 동향",
-      "date": "2026.11.19",
-      "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079995"
     }
   ]
 }
